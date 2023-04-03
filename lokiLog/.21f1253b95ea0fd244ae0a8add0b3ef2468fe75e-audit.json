@@ -1,0 +1,15 @@
+{
+    "keep": {
+        "days": true,
+        "amount": 1
+    },
+    "auditLog": "lokiLog\\.21f1253b95ea0fd244ae0a8add0b3ef2468fe75e-audit.json",
+    "files": [
+        {
+            "date": 1679887256571,
+            "name": "lokiLog\\2023-03-27-onlinetopup.log",
+            "hash": "2be94746c51fbf0b8d2e5421c009008573ac0f38ab24b9d95416f6f949523476"
+        }
+    ],
+    "hashType": "sha256"
+}

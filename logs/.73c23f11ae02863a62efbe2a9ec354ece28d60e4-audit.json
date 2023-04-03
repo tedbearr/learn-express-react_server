@@ -1,0 +1,110 @@
+{
+    "keep": {
+        "days": true,
+        "amount": 90
+    },
+    "auditLog": "logs\\.73c23f11ae02863a62efbe2a9ec354ece28d60e4-audit.json",
+    "files": [
+        {
+            "date": 1676875864630,
+            "name": "logs\\2023-02-20-onlinetopup.log",
+            "hash": "626d02d234575700a273b2e287d485ba275ce0a6f90f02d2e0bf2d6ebb9495ff"
+        },
+        {
+            "date": 1677167125135,
+            "name": "logs\\2023-02-23-onlinetopup.log",
+            "hash": "4599a2260745ace04f34dcb0060cb35633c440faaf06bd356a638b258007a470"
+        },
+        {
+            "date": 1677221733004,
+            "name": "logs\\2023-02-24-onlinetopup.log",
+            "hash": "29ff6d5d7fb2a6f951b374b8b2372b09db301319832c6f11812584ec3054c6de"
+        },
+        {
+            "date": 1677418138366,
+            "name": "logs\\2023-02-26-onlinetopup.log",
+            "hash": "48d6c9a95db847dcaf11d4ae5624ec4cf5a47496e2801f815af1cc33e8959474"
+        },
+        {
+            "date": 1677474426549,
+            "name": "logs\\2023-02-27-onlinetopup.log",
+            "hash": "328a911fc4a07a2ce5a910c0a6d71d48d028fb58e85baf726c9fb6120bbed1cf"
+        },
+        {
+            "date": 1677558624064,
+            "name": "logs\\2023-02-28-onlinetopup.log",
+            "hash": "fe51b30fc5cd678f5c155c14e46cf636022529c7560961d22b46bb00f3354710"
+        },
+        {
+            "date": 1677641524223,
+            "name": "logs\\2023-03-01-onlinetopup.log",
+            "hash": "198d8d1ed3d69ec6250afcf68a6c99710681bb9568b9fabfaca84ee93216c382"
+        },
+        {
+            "date": 1677735980288,
+            "name": "logs\\2023-03-02-onlinetopup.log",
+            "hash": "fdb1f08dbe4cf44da1041f4a19b75134d70df0945522573caaf53f1404b91dec"
+        },
+        {
+            "date": 1677816226771,
+            "name": "logs\\2023-03-03-onlinetopup.log",
+            "hash": "456872bc6e2a73022b226500d1cc9889595e2e353522d31358af7d4b6f1cccc4"
+        },
+        {
+            "date": 1678077458732,
+            "name": "logs\\2023-03-06-onlinetopup.log",
+            "hash": "b3979184e60fd253509d3ee18be4018af0655f838368191f247912cfb3630054"
+        },
+        {
+            "date": 1678161312806,
+            "name": "logs\\2023-03-07-onlinetopup.log",
+            "hash": "6ea8c9fba172c37e63eb96049e05b82d6424ed6f6766602b51f8a71b4eb0b4e7"
+        },
+        {
+            "date": 1678249014662,
+            "name": "logs\\2023-03-08-onlinetopup.log",
+            "hash": "facb568e2adec3bd02f07df64995d66169fe6aa042c1c2bf19888194f7f69d43"
+        },
+        {
+            "date": 1678338871856,
+            "name": "logs\\2023-03-09-onlinetopup.log",
+            "hash": "11d480f022812e6ba22685f12a44a2d958532597b79832d2ca9515651cd61719"
+        },
+        {
+            "date": 1678428508203,
+            "name": "logs\\2023-03-10-onlinetopup.log",
+            "hash": "15ddf8cf02de50c6186542a9fb8895a0dfa571276698b870a26db142978cdedf"
+        },
+        {
+            "date": 1678681354945,
+            "name": "logs\\2023-03-13-onlinetopup.log",
+            "hash": "28e41251dcca465131f4c7267585e00bf6bba9f9a8597b44f0074742cb58c303"
+        },
+        {
+            "date": 1678781254164,
+            "name": "logs\\2023-03-14-onlinetopup.log",
+            "hash": "a2701c7eca290b2ff20eb3c110a9c287a34ddc00667ed36be0225b6597cc2d60"
+        },
+        {
+            "date": 1679641356365,
+            "name": "logs\\2023-03-24-onlinetopup.log",
+            "hash": "0bfa588be900d60537f0faeefad2b0888de4544351005f829ebdf149c576a7e4"
+        },
+        {
+            "date": 1679886598072,
+            "name": "logs\\2023-03-27-onlinetopup.log",
+            "hash": "8a341844825cb1a9ab214c279a2a3f29f6b81ba82ba6cf67757dc5983aa8b591"
+        },
+        {
+            "date": 1679979231907,
+            "name": "logs\\2023-03-28-onlinetopup.log",
+            "hash": "fa04e17dd27c30411607578c9ae2196ff0928dae02d6fd33c75f8dba7fd0306b"
+        },
+        {
+            "date": 1680503870735,
+            "name": "logs\\2023-04-03-onlinetopup.log",
+            "hash": "9206d49a912e729907ae4e8dba845f1d8493861516d434df5cfd1d5653efd03a"
+        }
+    ],
+    "hashType": "sha256"
+}

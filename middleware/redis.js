@@ -11,13 +11,13 @@ let redisClient;
     password: redisPass,
   });
 
-  redisClient.on("error", (error) => console.error(`Error : ${error}`));
+  redisClient.on("error", (error) => {});
 
   redisClient.on("connect", () => console.log("Redis is Connected"));
 
   redisClient.on("ready", () => console.log("Redis is Ready"));
 
-  redisClient.on("reconnecting", () => console.log("Redis is Reconnecting"));
+  redisClient.on("reconnecting", () => {});
 
   await redisClient.connect();
 })();

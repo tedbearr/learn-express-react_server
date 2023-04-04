@@ -7,11 +7,11 @@ let user;
 let password;
 
 if (process.env.SERVER_FOR == "local") {
-  host = "localhost";
-  database = "CMS";
-  port = 5432;
-  user = "postgres";
-  password = "galau712";
+  host = process.env.DB_HOST || "localhost";
+  database = process.env.DB_NAME || "learn-express-react";
+  port = process.env.DB_PORT || "5432";
+  user = process.env.DB_USERNAME || "postgres";
+  password = process.env.DB_PASSWORD || "postgres";
 } else if (process.env.SERVER_FOR == "development") {
   //   host = "10.20.14.14";
   //   database = "postgres";

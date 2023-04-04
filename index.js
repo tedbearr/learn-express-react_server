@@ -14,6 +14,7 @@ const { count_metrics } = require("./config/metricsPrometheus");
 const { promMiddleware } = require("./middleware/prometheus");
 const redis = require("redis");
 const redisMiddleware = require("./middleware/redis");
+const auth = require("./routes/auth.route");
 
 register.setDefaultLabels({ app: "learn-express-react" });
 client.collectDefaultMetrics({ register });
@@ -41,13 +42,7 @@ app.get("/", async (req, res) => {
 app.use(logger.request);
 app.use(logger.response);
 
-app.use(
-  "/api/cardproduct",
-  lokiMiddleware,
-  promMiddleware,
-  redisMiddleware,
-  cardProduct
-);
+app.use("/api/auth", auth);
 
 app.listen(port, () => {
   console.log(`Run at ${port} `);

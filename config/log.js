@@ -49,9 +49,7 @@ const logger = {
 
         var header_auth = info.meta.req.headers["authorization"];
         var issuer_name =
-          header_auth === undefined
-            ? "Web"
-            : getIssuerMonitoring(header_auth.split(" ")[1]);
+          header_auth === "learn"
         if (!issuer_name)
           return `[${moment().format()}] | ${JSON.stringify(body)}`;
 

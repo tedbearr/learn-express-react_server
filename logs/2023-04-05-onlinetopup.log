@@ -1,0 +1,136 @@
+[2023-04-05 12:53:12.294] info: 	Request register : {"username":"tes","password":"123123"}
+[2023-04-05 12:53:12.300] warn: 	Response Register : {"code":"400","message":"Wrong format email","data":{}}
+[2023-04-05 12:53:14.157] info: 	Request register : {"username":"tes","password":"123123"}
+[2023-04-05 12:53:14.158] warn: 	Response Register : {"code":"400","message":"Wrong format email","data":{}}
+[2023-04-05 12:54:04.747] info: 	Request register : {"username":"tes","password":"123123"}
+[2023-04-05 12:54:04.753] warn: 	Response Register : {"code":"400","message":"Email is required","data":{}}
+[2023-04-05 12:54:15.303] info: 	Request register : {"username":"tes","password":"123123","email":"2ln2ken"}
+[2023-04-05 12:54:15.304] warn: 	Response Register : {"code":"400","message":"Wrong format email","data":{}}
+[2023-04-05 12:54:27.189] info: 	Request register : {"username":"tes","password":"123123","email":"2ln2ken"}
+[2023-04-05 12:54:27.194] warn: 	Response Register : {"code":"400","message":"Wrong email format","data":{}}
+[2023-04-05 12:54:35.051] info: 	Request register : {"username":"tes","password":"123123","email":"tes@gmail.com"}
+[2023-04-05 12:54:35.053] warn: 	Response Register : {"code":"400","message":"Phone number is required","data":{}}
+[2023-04-05 12:54:37.779] info: 	Request register : {"username":"tes","password":"123123","email":"tes@gmail.com"}
+[2023-04-05 12:54:37.780] warn: 	Response Register : {"code":"400","message":"Phone number is required","data":{}}
+[2023-04-05 12:54:45.802] info: 	Request register : {"username":"tes","password":"123123","email":"tes@gmail.com","phone":"0812"}
+[2023-04-05 12:54:45.804] warn: 	Response Register : {"code":"400","message":"At least 12 digits numbers","data":{}}
+[2023-04-05 12:54:56.469] info: 	Request register : {"username":"tes","password":"123123","email":"tes@gmail.com","phone":"0812"}
+[2023-04-05 12:54:56.474] warn: 	Response Register : {"code":"400","message":"At least 12 digits phone numbers","data":{}}
+[2023-04-05 12:55:08.334] info: 	Request register : {"username":"tes","password":"123123","email":"tes@gmail.com","phone":"08123214221"}
+[2023-04-05 12:55:08.335] warn: 	Response Register : {"code":"400","message":"At least 12 digits phone numbers","data":{}}
+[2023-04-05 12:55:12.568] info: 	Request register : {"username":"tes","password":"123123","email":"tes@gmail.com","phone":"081232142211"}
+[2023-04-05 12:55:12.570] info: 	Processing Register : Checking data login
+[2023-04-05 12:55:12.658] info: 	Processing Register : Encrypting password
+[2023-04-05 12:55:12.751] info: 	Processing Register : Inserting data
+[2023-04-05 12:55:12.759] info: 	Response Register : {"code":"00","message":"Register successfully, please login","data":"INSERT"}
+[2023-04-05 12:55:28.022] info: 	Request Login : {"username":"tes","password":"123123"}
+[2023-04-05 12:55:28.023] info: 	Processing Login : Checking data login...
+[2023-04-05 12:55:28.027] info: 	Processing Login : Comparing password...
+[2023-04-05 12:55:28.102] info: 	Processing Login : Generating access token...
+[2023-04-05 12:55:28.112] info: 	Processing Login : Generating refresh token...
+[2023-04-05 12:55:28.115] debug: 	Processing Login : Inserting access token and refresh token...
+[2023-04-05 12:55:42.564] debug: 	Processing products : inserting data...
+[2023-04-05 12:55:42.570] info: 	Response products : {"code":"00","message":"Insert Product Successfully","data":"INSERT"}
+[2023-04-05 13:07:31.719] info: 	Request register : {"username":"tes","password":"123123","email":"tes@gmail.com","phone":"081232142211"}
+[2023-04-05 13:07:31.723] info: 	Processing Register : Checking data login
+[2023-04-05 13:07:31.724] error: 	Response Register : "model.checkDataRegister is not a function"
+[2023-04-05 13:08:42.611] info: 	Request register : {"username":"tes","password":"123123","email":"tes@gmail.com","phone":"081232142211"}
+[2023-04-05 13:08:42.614] info: 	Processing Register : Checking data login
+[2023-04-05 13:08:42.677] warn: 	Response Register : {"code":"400","message":"Account with this username is already exists!","data":{}}
+[2023-04-05 13:08:44.958] info: 	Request register : {"username":"tes","password":"123123","email":"tes@gmail.com","phone":"081232142211"}
+[2023-04-05 13:08:44.960] info: 	Processing Register : Checking data login
+[2023-04-05 13:08:44.965] warn: 	Response Register : {"code":"400","message":"Account with this username is already exists!","data":{}}
+[2023-04-05 13:08:47.013] info: 	Request register : {"username":"tess","password":"123123","email":"tes@gmail.com","phone":"081232142211"}
+[2023-04-05 13:08:47.014] info: 	Processing Register : Checking data login
+[2023-04-05 13:08:47.017] info: 	Processing Register : Encrypting password
+[2023-04-05 13:08:47.090] info: 	Processing Register : Inserting data
+[2023-04-05 13:08:47.095] info: 	Response Register : {"code":"00","message":"Register successfully, please login","data":"INSERT"}
+[2023-04-05 13:09:23.926] info: 	Request Login : {"username":"tes","password":"123123"}
+[2023-04-05 13:09:23.927] info: 	Processing Login : Checking data login...
+[2023-04-05 13:09:23.928] error: 	Response Login : model.checkDataRegister is not a function
+[2023-04-05 13:10:13.085] info: 	Request Login : {"username":"tes","password":"123123"}
+[2023-04-05 13:10:13.090] info: 	Processing Login : Checking data login...
+[2023-04-05 13:10:13.181] info: 	Processing Login : Comparing password...
+[2023-04-05 13:10:13.251] info: 	Processing Login : Generating access token...
+[2023-04-05 13:10:13.262] info: 	Processing Login : Generating refresh token...
+[2023-04-05 13:10:13.264] debug: 	Processing Login : Inserting access token and refresh token...
+[2023-04-05 13:10:30.725] debug: 	Processing products : inserting data...
+[2023-04-05 13:10:30.730] info: 	Response products : {"code":"00","message":"Insert Product Successfully","data":"INSERT"}
+[2023-04-05 13:26:18.571] info: 	Request Add Admim : [object Object]
+[2023-04-05 13:26:18.574] warn: 	Response Register : {"code":"400","message":"Username is required!","data":{}}
+[2023-04-05 13:27:35.125] info: 	Request Add Admim : [object Object]
+[2023-04-05 13:27:35.127] warn: 	Response Register : {"code":"400","message":"Password is required!","data":{}}
+[2023-04-05 13:28:25.626] info: 	Request Add Admim : [object Object]
+[2023-04-05 13:28:25.629] warn: 	Response Register : {"code":"400","message":"Password is required!","data":{}}
+[2023-04-05 13:28:29.259] info: 	Request Add Admim : [object Object]
+[2023-04-05 13:28:29.260] warn: 	Response Register : {"code":"400","message":"Password atleast 6 characters","data":{}}
+[2023-04-05 13:28:34.313] info: 	Request Add Admim : [object Object]
+[2023-04-05 13:28:34.314] warn: 	Response Register : {"code":"400","message":"Email is required","data":{}}
+[2023-04-05 13:30:04.750] info: 	Request Add Admim : [object Object]
+[2023-04-05 13:30:04.753] warn: 	Response Register : {"code":"400","message":"Email is required","data":{}}
+[2023-04-05 13:30:15.357] info: 	Request Add Admim : [object Object]
+[2023-04-05 13:30:15.358] warn: 	Response Register : {"code":"400","message":"Wrong email format","data":{}}
+[2023-04-05 13:30:33.781] info: 	Request Add Admim : [object Object]
+[2023-04-05 13:30:33.782] info: 	Processing add admin : Checking data admin...
+[2023-04-05 13:30:33.953] info: 	Processing Register Admin : Encrypting password
+[2023-04-05 13:30:34.023] info: 	Processing Register : Inserting data
+[2023-04-05 13:30:34.035] error: 	Respose Add Admin : insert into "admin" ("created_at", "created_by", "password", "status", "username") values ($1, $2, $3, $4, $5) - null value in column "email" of relation "admin" violates not-null constraint
+[2023-04-05 13:31:11.137] info: 	Request Add Admim : [object Object]
+[2023-04-05 13:31:11.141] info: 	Processing add admin : Checking data admin...
+[2023-04-05 13:31:11.206] info: 	Processing Register Admin : Encrypting password
+[2023-04-05 13:31:11.279] info: 	Processing Register : Inserting data
+[2023-04-05 13:31:11.284] info: 	Response Register : {"code":"00","message":"Register successfully, please login","data":"INSERT"}
+[2023-04-05 13:38:33.426] info: 	Request Add Admim : [object Object]
+[2023-04-05 13:38:33.427] info: 	Processing add admin : Checking data admin...
+[2023-04-05 13:38:33.431] warn: 	Response Register Admin : {"code":"400","message":"Account already exists!","data":{}}
+[2023-04-05 13:38:34.532] info: 	Request Add Admim : [object Object]
+[2023-04-05 13:38:34.532] info: 	Processing add admin : Checking data admin...
+[2023-04-05 13:38:34.535] warn: 	Response Register Admin : {"code":"400","message":"Account already exists!","data":{}}
+[2023-04-05 13:39:09.657] info: 	Request Add Admim : [object Object]
+[2023-04-05 13:39:09.658] info: 	Processing add admin : Checking data admin...
+[2023-04-05 13:39:09.662] warn: 	Response Register Admin : {"code":"400","message":"Account already exists!","data":{}}
+[2023-04-05 14:53:10.209] info: 	Request Login Admin : {"username":"tes","password":"123123"}
+[2023-04-05 14:53:10.212] info: 	Processing Login Admin : Checking data login...
+[2023-04-05 14:53:10.270] warn: 	Response Login Admin : {"code":"400","message":"Account doesn't exists!","data":{}}
+[2023-04-05 14:53:16.114] info: 	Request Login Admin : {"username":"admin","password":"123123"}
+[2023-04-05 14:53:16.115] info: 	Processing Login Admin : Checking data login...
+[2023-04-05 14:53:16.121] info: 	Processing Login Admin : Comparing password...
+[2023-04-05 14:53:16.191] info: 	Processing Login : Generating access token...
+[2023-04-05 14:53:16.199] info: 	Processing Login : Generating refresh token...
+[2023-04-05 14:53:16.201] debug: 	Processing Login : Inserting access token and refresh token...
+[2023-04-05 14:53:47.407] warn: 	Response Insert Product : {"code":"400","message":"Product name is required","data":{}}
+[2023-04-05 14:54:08.920] warn: 	Response Insert Product : {"code":"400","message":"Stock is required","data":{}}
+[2023-04-05 14:54:25.886] warn: 	Response Insert Product : {"code":"400","message":"Stock is required","data":{}}
+[2023-04-05 14:54:47.636] warn: 	Response Insert Product : {"code":"400","message":"Price is required","data":{}}
+[2023-04-05 14:54:54.666] warn: 	Response Insert Product : {"code":"400","message":"Description is required","data":{}}
+[2023-04-05 14:55:13.409] debug: 	Processing products : inserting data...
+[2023-04-05 14:55:13.413] info: 	Response products : {"code":"00","message":"Insert Product Successfully","data":"INSERT"}
+[2023-04-05 14:56:22.137] debug: 	Processing products : inserting data...
+[2023-04-05 14:56:22.199] info: 	Response products : {"code":"00","message":"Insert Product Successfully","data":"INSERT"}
+[2023-04-05 16:24:10.084] warn: 	Request Update Product : {}
+[2023-04-05 16:24:10.087] warn: 	Response Update Product : {"code":"400","message":"Product name is required","data":{}}
+[2023-04-05 16:24:26.888] warn: 	Request Update Product : {"name":"productAdmin","stock":"10","price":"1000","description":"Tes Insert"}
+[2023-04-05 16:24:26.890] debug: 	Processing products : updating data...
+[2023-04-05 16:24:26.952] info: 	Response Update Products : {"code":"00","message":"Update Product Successfully"}
+[2023-04-05 16:24:34.230] warn: 	Request Update Product : {"name":"","stock":"10","price":"1000","description":"Tes Insert"}
+[2023-04-05 16:24:34.231] warn: 	Response Update Product : {"code":"400","message":"Product name is required","data":{}}
+[2023-04-05 16:24:44.204] warn: 	Request Update Product : {"name":"Tes update","stock":"10","price":"1000","description":"Tes Insert"}
+[2023-04-05 16:24:44.206] debug: 	Processing products : updating data...
+[2023-04-05 16:24:44.210] info: 	Response Update Products : {"code":"00","message":"Update Product Successfully"}
+[2023-04-05 16:24:56.492] warn: 	Request Update Product : {"name":"Tes updates","stock":"10","price":"1000","description":"Tes Insert"}
+[2023-04-05 16:24:56.493] debug: 	Processing products : updating data...
+[2023-04-05 16:24:56.495] info: 	Response Update Products : {"code":"00","message":"Update Product Successfully"}
+[2023-04-05 16:26:29.833] warn: 	Request Update Product : {"name":"Tes updates","stock":"10","price":"1000","description":"Tes Insert"}
+[2023-04-05 16:26:29.834] debug: 	Processing products : updating data...
+[2023-04-05 16:26:29.839] info: 	Response Update Products : {"code":"00","message":"Update Product Successfully"}
+[2023-04-05 16:26:41.728] warn: 	Request Update Product : {"name":"Tes updates","stock":"10","price":"1000","description":"Tes Update"}
+[2023-04-05 16:26:41.729] debug: 	Processing products : updating data...
+[2023-04-05 16:26:41.732] info: 	Response Update Products : {"code":"00","message":"Update Product Successfully"}
+[2023-04-05 16:35:07.337] warn: 	Request Update Product : {"name":"Tes updates","stock":"10","price":"1000","description":"Tes Update"}
+[2023-04-05 16:36:43.321] warn: 	Request Update Product : {"name":"Tes updates","stock":"10","price":"1000","description":"Tes Update"}
+[2023-04-05 16:38:39.368] info: 	Request Update Product : {"name":"Tes updates","stock":"10","price":"1000","description":"Tes Update"}
+[2023-04-05 16:38:44.047] info: 	Request Update Product : {"name":"Tes updates","stock":"10","price":"1000","description":"Tes Update"}
+[2023-04-05 16:50:34.073] info: 	Request Update Product : {"name":"Tes updates","stock":"10","price":"1000","description":"Tes Update"}
+[2023-04-05 16:50:36.883] info: 	Request Update Product : {"name":"Tes updates","stock":"10","price":"1000","description":"Tes Update"}
+[2023-04-05 16:50:36.887] debug: 	Processing products : updating data...
+[2023-04-05 16:50:36.895] info: 	Response Update Products : {"code":"00","message":"Update Product Successfully"}

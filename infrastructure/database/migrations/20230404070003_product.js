@@ -3,15 +3,14 @@
  * @returns { Promise<void> }
  */
 exports.up = function (knex) {
-  return knex.schema.createTable("users", function (table) {
+  return knex.schema.createTable("products", function (table) {
     table.increments("id");
-    table.string("username", 255).notNullable();
-    table.string("password", 255).notNullable();
-    table.string("email", 255).notNullable();
-    table.string("phone", 255).notNullable();
+    table.string("name", 255).notNullable();
+    table.string("stock").notNullable();
+    table.string("price").notNullable();
+    table.string("description").notNullable();
+    table.json("images", 255).notNullable();
     table.string("status").nullable().defaultTo("A");
-    table.string("access_token", 255).nullable();
-    table.string("refresh_token", 255).nullable();
     table.timestamp("created_at");
     table.string("created_by").nullable();
     table.timestamp("updated_at");
@@ -26,5 +25,5 @@ exports.up = function (knex) {
  * @returns { Promise<void> }
  */
 exports.down = function (knex) {
-  return knex.schema.dropTable("users");
+  return knex.schema.dropTable("products");
 };

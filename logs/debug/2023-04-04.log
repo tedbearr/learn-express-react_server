@@ -76,3 +76,76 @@
 [2023-04-04 13:18:58.705] info: 	Processing Login : Generating access token...
 [2023-04-04 13:18:58.722] info: 	Processing Login : Generating refresh token...
 [2023-04-04 13:18:58.732] debug: 	Processing Login : Inserting access token and refresh token...
+[2023-04-04 13:19:45.071] info: 	Request Login : {"username":"tes","password":"123123"}
+[2023-04-04 13:19:45.074] info: 	Processing Login : Checking data login...
+[2023-04-04 13:19:45.139] info: 	Processing Login : Comparing password...
+[2023-04-04 13:19:45.209] info: 	Processing Login : Generating access token...
+[2023-04-04 13:19:45.218] info: 	Processing Login : Generating refresh token...
+[2023-04-04 13:19:45.221] debug: 	Processing Login : Inserting access token and refresh token...
+[2023-04-04 13:46:27.768] info: 	Request Login : {"username":"tes","password":"123123"}
+[2023-04-04 13:46:27.772] info: 	Processing Login : Checking data login...
+[2023-04-04 13:46:27.841] info: 	Processing Login : Comparing password...
+[2023-04-04 13:46:27.912] info: 	Processing Login : Generating access token...
+[2023-04-04 13:46:27.921] info: 	Processing Login : Generating refresh token...
+[2023-04-04 13:46:27.924] debug: 	Processing Login : Inserting access token and refresh token...
+[2023-04-04 13:46:27.939] error: 	Response Login : getIssuerMonitoring is not defined
+[2023-04-04 13:46:56.789] info: 	Request Login : {"username":"tes","password":"123123"}
+[2023-04-04 13:46:56.793] info: 	Processing Login : Checking data login...
+[2023-04-04 13:46:56.852] info: 	Processing Login : Comparing password...
+[2023-04-04 13:46:56.923] info: 	Processing Login : Generating access token...
+[2023-04-04 13:46:56.931] info: 	Processing Login : Generating refresh token...
+[2023-04-04 13:46:56.935] debug: 	Processing Login : Inserting access token and refresh token...
+[2023-04-04 13:46:56.950] error: 	Response Login : getIssuerMonitoring is not defined
+[2023-04-04 13:47:34.663] info: 	Request register : {"username":"tes","password":"123123"}
+[2023-04-04 13:47:34.667] info: 	Processing Register : Checking data login
+[2023-04-04 13:47:34.730] warn: 	Response Register : {"code":"400","message":"Account with this username is already exists!","data":{}}
+[2023-04-04 13:47:34.744] error: 	Response Register : "getIssuerMonitoring is not defined"
+[2023-04-04 13:48:04.114] info: 	Request register : {"username":"tes","password":"123123"}
+[2023-04-04 13:48:04.117] info: 	Processing Register : Checking data login
+[2023-04-04 13:48:04.197] warn: 	Response Register : {"code":"400","message":"Account with this username is already exists!","data":{}}
+[2023-04-04 13:48:04.209] error: 	Response Register : "getIssuerMonitoring is not defined"
+[2023-04-04 13:48:11.884] info: 	Request register : {"username":"tes","password":"123123"}
+[2023-04-04 13:48:11.894] info: 	Processing Register : Checking data login
+[2023-04-04 13:48:11.986] warn: 	Response Register : {"code":"400","message":"Account with this username is already exists!","data":{}}
+[2023-04-04 13:48:12.004] error: 	Response Register : "getIssuerMonitoring is not defined"
+[2023-04-04 13:49:18.247] info: 	Request register : {"username":"tes","password":"123123"}
+[2023-04-04 13:49:18.251] info: 	Processing Register : Checking data login
+[2023-04-04 13:49:18.319] warn: 	Response Register : {"code":"400","message":"Account with this username is already exists!","data":{}}
+[2023-04-04 14:27:49.383] info: 	Request register : {"username":"tes","password":"123123"}
+[2023-04-04 14:27:49.386] info: 	Processing Register : Checking data login
+[2023-04-04 14:27:49.446] warn: 	Response Register : {"code":"400","message":"Account with this username is already exists!","data":{}}
+[2023-04-04 14:27:50.374] info: 	Request register : {"username":"tes","password":"123123"}
+[2023-04-04 14:27:50.375] info: 	Processing Register : Checking data login
+[2023-04-04 14:27:50.378] warn: 	Response Register : {"code":"400","message":"Account with this username is already exists!","data":{}}
+[2023-04-04 14:27:51.197] info: 	Request register : {"username":"tes","password":"123123"}
+[2023-04-04 14:27:51.198] info: 	Processing Register : Checking data login
+[2023-04-04 14:27:51.200] warn: 	Response Register : {"code":"400","message":"Account with this username is already exists!","data":{}}
+[2023-04-04 14:27:51.893] info: 	Request register : {"username":"tes","password":"123123"}
+[2023-04-04 14:27:51.894] info: 	Processing Register : Checking data login
+[2023-04-04 14:27:51.896] warn: 	Response Register : {"code":"400","message":"Account with this username is already exists!","data":{}}
+[2023-04-04 14:27:52.633] info: 	Request register : {"username":"tes","password":"123123"}
+[2023-04-04 14:27:52.634] info: 	Processing Register : Checking data login
+[2023-04-04 14:27:52.637] warn: 	Response Register : {"code":"400","message":"Account with this username is already exists!","data":{}}
+[2023-04-04 14:27:53.286] info: 	Request register : {"username":"tes","password":"123123"}
+[2023-04-04 14:27:53.287] info: 	Processing Register : Checking data login
+[2023-04-04 14:27:53.290] warn: 	Response Register : {"code":"400","message":"Account with this username is already exists!","data":{}}
+[2023-04-04 14:27:53.832] info: 	Request register : {"username":"tes","password":"123123"}
+[2023-04-04 14:27:53.832] info: 	Processing Register : Checking data login
+[2023-04-04 14:27:53.835] warn: 	Response Register : {"code":"400","message":"Account with this username is already exists!","data":{}}
+[2023-04-04 14:27:54.476] info: 	Request register : {"username":"tes","password":"123123"}
+[2023-04-04 14:27:54.477] info: 	Processing Register : Checking data login
+[2023-04-04 14:27:54.480] warn: 	Response Register : {"code":"400","message":"Account with this username is already exists!","data":{}}
+[2023-04-04 14:28:51.194] debug: 	Processing products : inserting data...
+[2023-04-04 14:28:51.315] error: 	Response products : insert into "products" ("created_at", "created_by", "description", "name", "price", "stock") values ($1, $2, DEFAULT, DEFAULT, DEFAULT, DEFAULT) - null value in column "name" of relation "products" violates not-null constraint
+[2023-04-04 14:29:06.993] warn: 	Response Insert Product : {"code":"400","message":"Product name is required","data":{}}
+[2023-04-04 14:29:08.430] warn: 	Response Insert Product : {"code":"400","message":"Product name is required","data":{}}
+[2023-04-04 14:29:09.379] warn: 	Response Insert Product : {"code":"400","message":"Product name is required","data":{}}
+[2023-04-04 14:29:09.998] warn: 	Response Insert Product : {"code":"400","message":"Product name is required","data":{}}
+[2023-04-04 14:29:10.691] warn: 	Response Insert Product : {"code":"400","message":"Product name is required","data":{}}
+[2023-04-04 14:29:20.638] warn: 	Response Insert Product : {"code":"400","message":"Product name is required","data":{}}
+[2023-04-04 14:29:42.474] warn: 	Response Insert Product : {"code":"400","message":"Product name is required","data":{}}
+[2023-04-04 14:30:00.647] warn: 	Response Insert Product : {"code":"400","message":"Product name is required","data":{}}
+[2023-04-04 14:30:04.677] warn: 	Response Insert Product : {"code":"400","message":"Stock name is required","data":{}}
+[2023-04-04 14:30:24.502] warn: 	Response Insert Product : {"code":"400","message":"Stock is required","data":{}}
+[2023-04-04 14:31:18.587] debug: 	Processing products : inserting data...
+[2023-04-04 14:31:18.647] info: 	Response products : {"code":"00","message":"Insert Product Successfully","data":"INSERT"}

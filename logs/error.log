@@ -1,3 +1,12 @@
 [2023-02-20 14:16:43.612] error: 	Success insert data card product
 [2023-02-20 14:17:30.289] error: 	Key (c_card_number)=(123456789010) already exists.
 [2023-04-04 12:05:08.984] error: 	Response Register : "insert into \"users\" (\"created_at\", \"creted_by\", \"password\", \"status\", \"username\") values ($1, $2, $3, $4, $5) - column \"creted_by\" of relation \"users\" does not exist"
+[2023-04-04 13:46:27.939] error: 	Response Login : getIssuerMonitoring is not defined
+[2023-04-04 13:46:56.950] error: 	Response Login : getIssuerMonitoring is not defined
+[2023-04-04 13:47:34.744] error: 	Response Register : "getIssuerMonitoring is not defined"
+[2023-04-04 13:48:04.209] error: 	Response Register : "getIssuerMonitoring is not defined"
+[2023-04-04 13:48:12.004] error: 	Response Register : "getIssuerMonitoring is not defined"
+[2023-04-04 14:28:51.315] error: 	Response products : insert into "products" ("created_at", "created_by", "description", "name", "price", "stock") values ($1, $2, DEFAULT, DEFAULT, DEFAULT, DEFAULT) - null value in column "name" of relation "products" violates not-null constraint
+[2023-04-05 13:07:31.724] error: 	Response Register : "model.checkDataRegister is not a function"
+[2023-04-05 13:09:23.928] error: 	Response Login : model.checkDataRegister is not a function
+[2023-04-05 13:30:34.035] error: 	Respose Add Admin : insert into "admin" ("created_at", "created_by", "password", "status", "username") values ($1, $2, $3, $4, $5) - null value in column "email" of relation "admin" violates not-null constraint

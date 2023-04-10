@@ -32,6 +32,7 @@ router.put(
   controller.updateData
 );
 
+router.post("/admin/delete", auth.authTokenAdmin, controller.deleteData);
 // router.post("/login", controller.validate("auth"), controller.login);
 
 module.exports = router;

@@ -10,3 +10,8 @@
 [2023-04-05 13:07:31.724] error: 	Response Register : "model.checkDataRegister is not a function"
 [2023-04-05 13:09:23.928] error: 	Response Login : model.checkDataRegister is not a function
 [2023-04-05 13:30:34.035] error: 	Respose Add Admin : insert into "admin" ("created_at", "created_by", "password", "status", "username") values ($1, $2, $3, $4, $5) - null value in column "email" of relation "admin" violates not-null constraint
+[2023-04-06 10:44:41.774] error: 	Response products : Undefined binding(s) detected when compiling FIRST. Undefined column(s): [id] query: select * from "products" where "id" = ? limit ?
+[2023-04-06 10:44:56.707] error: 	Response products : Undefined binding(s) detected when compiling FIRST. Undefined column(s): [id] query: select * from "products" where "id" = ? limit ?
+[2023-04-06 10:45:07.612] error: 	Response products : Undefined binding(s) detected when compiling FIRST. Undefined column(s): [id] query: select * from "products" where "id" = ? limit ?
+[2023-04-06 10:45:41.091] error: 	Response products : Undefined binding(s) detected when compiling FIRST. Undefined column(s): [id] query: select * from "products" where "id" = ? limit ?
+[2023-04-06 10:46:44.713] error: 	Response products : Undefined binding(s) detected when compiling FIRST. Undefined column(s): [id] query: select * from "products" where "id" = ? limit ?

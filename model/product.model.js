@@ -6,7 +6,7 @@ const insertData = (tableName, data) => {
 };
 
 const getAllData = (tableName) => {
-  let result = knex(tableName);
+  let result = knex(tableName).where("status", "!=", "X");
   return result;
 };
 

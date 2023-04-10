@@ -196,6 +196,7 @@ const deleteData = async (req, res, next) => {
     let tableName = "products";
     let key = "id";
     let args = id;
+    console.log(id);
 
     winston.log.info(`Request Delete Product : ${JSON.stringify(req.body)}`);
 

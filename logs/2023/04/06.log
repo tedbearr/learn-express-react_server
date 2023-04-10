@@ -1,0 +1,70 @@
+[2023-04-06T10:44:41+07:00] | {"tag":"REQ","from":"::1","method":"POST","endpoint":"/api/products/admin/delete","time":"2023-04-06T10:44:41+07:00"}
+[2023-04-06T10:44:41+07:00] | {"tag":"RES","from":"::1","method":"POST","endpoint":"/api/products/admin/delete","time":"2023-04-06T10:44:41+07:00","responseTime":"289 ms"}
+[2023-04-06T10:44:56+07:00] | {"tag":"REQ","from":"::1","method":"POST","endpoint":"/api/products/admin/delete","time":"2023-04-06T10:44:56+07:00"}
+[2023-04-06T10:44:56+07:00] | {"tag":"RES","from":"::1","method":"POST","endpoint":"/api/products/admin/delete","time":"2023-04-06T10:44:56+07:00","responseTime":"7 ms"}
+[2023-04-06T10:45:07+07:00] | {"tag":"REQ","from":"::1","method":"POST","endpoint":"/api/products/admin/delete","time":"2023-04-06T10:45:07+07:00"}
+[2023-04-06T10:45:07+07:00] | {"tag":"RES","from":"::1","method":"POST","endpoint":"/api/products/admin/delete","time":"2023-04-06T10:45:07+07:00","responseTime":"9 ms"}
+[2023-04-06T10:45:41+07:00] | {"tag":"REQ","from":"::1","method":"POST","endpoint":"/api/products/admin/delete","time":"2023-04-06T10:45:41+07:00"}
+[2023-04-06T10:45:41+07:00] | {"tag":"RES","from":"::1","method":"POST","endpoint":"/api/products/admin/delete","time":"2023-04-06T10:45:41+07:00","responseTime":"136 ms"}
+[2023-04-06T10:46:44+07:00] | {"tag":"REQ","from":"::1","method":"POST","endpoint":"/api/products/admin/delete","time":"2023-04-06T10:46:44+07:00"}
+[2023-04-06T10:46:44+07:00] | {"tag":"RES","from":"::1","method":"POST","endpoint":"/api/products/admin/delete","time":"2023-04-06T10:46:44+07:00","responseTime":"76 ms"}
+[2023-04-06T10:47:16+07:00] | {"tag":"REQ","from":"::1","method":"POST","endpoint":"/api/products/admin/delete","time":"2023-04-06T10:47:16+07:00"}
+[2023-04-06T10:47:16+07:00] | {"tag":"RES","from":"::1","method":"POST","endpoint":"/api/products/admin/delete","time":"2023-04-06T10:47:16+07:00","responseTime":"146 ms"}
+[2023-04-06T11:18:40+07:00] | {"tag":"REQ","from":"::1","method":"GET","endpoint":"/favicon.ico","time":"2023-04-06T11:18:40+07:00"}
+[2023-04-06T11:18:40+07:00] | {"tag":"RES","from":"::1","method":"GET","endpoint":"/favicon.ico","time":"2023-04-06T11:18:40+07:00","responseTime":"3 ms"}
+[2023-04-06T13:06:12+07:00] | {"tag":"REQ","from":"::1","method":"POST","endpoint":"/api/auth/admin/login","time":"2023-04-06T13:06:12+07:00"}
+[2023-04-06T13:06:12+07:00] | {"tag":"RES","from":"::1","method":"POST","endpoint":"/api/auth/admin/login","time":"2023-04-06T13:06:12+07:00","responseTime":"12 ms"}
+[2023-04-06T13:06:55+07:00] | {"tag":"REQ","from":"::1","method":"POST","endpoint":"/api/auth/admin/login","time":"2023-04-06T13:06:55+07:00"}
+[2023-04-06T13:06:55+07:00] | {"tag":"RES","from":"::1","method":"POST","endpoint":"/api/auth/admin/login","time":"2023-04-06T13:06:55+07:00","responseTime":"4 ms"}
+[2023-04-06T13:08:01+07:00] | {"tag":"REQ","from":"::1","method":"POST","endpoint":"/api/auth/admin/login","time":"2023-04-06T13:08:01+07:00"}
+[2023-04-06T13:08:01+07:00] | {"tag":"RES","from":"::1","method":"POST","endpoint":"/api/auth/admin/login","time":"2023-04-06T13:08:01+07:00","responseTime":"165 ms"}
+[2023-04-06T13:08:59+07:00] | {"tag":"REQ","from":"::1","method":"POST","endpoint":"/api/auth/admin/login","time":"2023-04-06T13:08:59+07:00"}
+[2023-04-06T13:08:59+07:00] | {"tag":"RES","from":"::1","method":"POST","endpoint":"/api/auth/admin/login","time":"2023-04-06T13:08:59+07:00","responseTime":"81 ms"}
+[2023-04-06T13:13:39+07:00] | {"tag":"REQ","from":"::1","method":"POST","endpoint":"/api/auth/admin/login","time":"2023-04-06T13:13:39+07:00"}
+[2023-04-06T13:13:39+07:00] | {"tag":"RES","from":"::1","method":"POST","endpoint":"/api/auth/admin/login","time":"2023-04-06T13:13:39+07:00","responseTime":"3 ms"}
+[2023-04-06T13:13:41+07:00] | {"tag":"REQ","from":"::1","method":"POST","endpoint":"/api/auth/admin/login","time":"2023-04-06T13:13:41+07:00"}
+[2023-04-06T13:13:41+07:00] | {"tag":"RES","from":"::1","method":"POST","endpoint":"/api/auth/admin/login","time":"2023-04-06T13:13:41+07:00","responseTime":"3 ms"}
+[2023-04-06T13:13:43+07:00] | {"tag":"REQ","from":"::1","method":"POST","endpoint":"/api/auth/admin/login","time":"2023-04-06T13:13:43+07:00"}
+[2023-04-06T13:13:43+07:00] | {"tag":"RES","from":"::1","method":"POST","endpoint":"/api/auth/admin/login","time":"2023-04-06T13:13:43+07:00","responseTime":"4 ms"}
+[2023-04-06T13:13:53+07:00] | {"tag":"REQ","from":"::1","method":"POST","endpoint":"/api/auth/admin/login","time":"2023-04-06T13:13:53+07:00"}
+[2023-04-06T13:13:53+07:00] | {"tag":"RES","from":"::1","method":"POST","endpoint":"/api/auth/admin/login","time":"2023-04-06T13:13:53+07:00","responseTime":"3 ms"}
+[2023-04-06T13:14:00+07:00] | {"tag":"REQ","from":"::1","method":"POST","endpoint":"/api/auth/admin/login","time":"2023-04-06T13:14:00+07:00"}
+[2023-04-06T13:14:00+07:00] | {"tag":"RES","from":"::1","method":"POST","endpoint":"/api/auth/admin/login","time":"2023-04-06T13:14:00+07:00","responseTime":"4 ms"}
+[2023-04-06T13:14:14+07:00] | {"tag":"REQ","from":"::1","method":"POST","endpoint":"/api/auth/admin/login","time":"2023-04-06T13:14:14+07:00"}
+[2023-04-06T13:14:14+07:00] | {"tag":"RES","from":"::1","method":"POST","endpoint":"/api/auth/admin/login","time":"2023-04-06T13:14:14+07:00","responseTime":"2 ms"}
+[2023-04-06T13:14:55+07:00] | {"tag":"REQ","from":"::1","method":"POST","endpoint":"/api/auth/admin/login","time":"2023-04-06T13:14:55+07:00"}
+[2023-04-06T13:14:55+07:00] | {"tag":"RES","from":"::1","method":"POST","endpoint":"/api/auth/admin/login","time":"2023-04-06T13:14:55+07:00","responseTime":"2 ms"}
+[2023-04-06T13:15:15+07:00] | {"tag":"REQ","from":"::1","method":"POST","endpoint":"/api/auth/admin/login","time":"2023-04-06T13:15:15+07:00"}
+[2023-04-06T13:15:15+07:00] | {"tag":"RES","from":"::1","method":"POST","endpoint":"/api/auth/admin/login","time":"2023-04-06T13:15:15+07:00","responseTime":"3 ms"}
+[2023-04-06T13:15:19+07:00] | {"tag":"REQ","from":"::1","method":"POST","endpoint":"/api/auth/admin/login","time":"2023-04-06T13:15:19+07:00"}
+[2023-04-06T13:15:19+07:00] | {"tag":"RES","from":"::1","method":"POST","endpoint":"/api/auth/admin/login","time":"2023-04-06T13:15:19+07:00","responseTime":"2 ms"}
+[2023-04-06T13:15:21+07:00] | {"tag":"REQ","from":"::1","method":"POST","endpoint":"/api/auth/admin/login","time":"2023-04-06T13:15:21+07:00"}
+[2023-04-06T13:15:21+07:00] | {"tag":"RES","from":"::1","method":"POST","endpoint":"/api/auth/admin/login","time":"2023-04-06T13:15:21+07:00","responseTime":"3 ms"}
+[2023-04-06T13:15:23+07:00] | {"tag":"REQ","from":"::1","method":"POST","endpoint":"/api/auth/admin/login","time":"2023-04-06T13:15:23+07:00"}
+[2023-04-06T13:15:23+07:00] | {"tag":"RES","from":"::1","method":"POST","endpoint":"/api/auth/admin/login","time":"2023-04-06T13:15:23+07:00","responseTime":"3 ms"}
+[2023-04-06T13:15:36+07:00] | {"tag":"REQ","from":"::1","method":"POST","endpoint":"/api/auth/admin/login","time":"2023-04-06T13:15:36+07:00"}
+[2023-04-06T13:15:36+07:00] | {"tag":"RES","from":"::1","method":"POST","endpoint":"/api/auth/admin/login","time":"2023-04-06T13:15:36+07:00","responseTime":"2 ms"}
+[2023-04-06T13:16:30+07:00] | {"tag":"REQ","from":"::1","method":"POST","endpoint":"/api/auth/admin/login","time":"2023-04-06T13:16:30+07:00"}
+[2023-04-06T13:16:30+07:00] | {"tag":"RES","from":"::1","method":"POST","endpoint":"/api/auth/admin/login","time":"2023-04-06T13:16:30+07:00","responseTime":"2 ms"}
+[2023-04-06T13:16:32+07:00] | {"tag":"REQ","from":"::1","method":"POST","endpoint":"/api/auth/admin/login","time":"2023-04-06T13:16:32+07:00"}
+[2023-04-06T13:16:32+07:00] | {"tag":"RES","from":"::1","method":"POST","endpoint":"/api/auth/admin/login","time":"2023-04-06T13:16:32+07:00","responseTime":"2 ms"}
+[2023-04-06T13:21:04+07:00] | {"tag":"REQ","from":"::1","method":"POST","endpoint":"/api/auth/admin/login","time":"2023-04-06T13:21:04+07:00"}
+[2023-04-06T13:21:04+07:00] | {"tag":"RES","from":"::1","method":"POST","endpoint":"/api/auth/admin/login","time":"2023-04-06T13:21:04+07:00","responseTime":"2 ms"}
+[2023-04-06T13:21:34+07:00] | {"tag":"REQ","from":"::1","method":"POST","endpoint":"/api/auth/admin/login","time":"2023-04-06T13:21:34+07:00"}
+[2023-04-06T13:21:34+07:00] | {"tag":"RES","from":"::1","method":"POST","endpoint":"/api/auth/admin/login","time":"2023-04-06T13:21:34+07:00","responseTime":"2 ms"}
+[2023-04-06T13:27:39+07:00] | {"tag":"REQ","from":"::1","method":"POST","endpoint":"/api/auth/admin/login","time":"2023-04-06T13:27:39+07:00"}
+[2023-04-06T13:27:39+07:00] | {"tag":"RES","from":"::1","method":"POST","endpoint":"/api/auth/admin/login","time":"2023-04-06T13:27:39+07:00","responseTime":"85 ms"}
+[2023-04-06T13:27:52+07:00] | {"tag":"REQ","from":"::1","method":"POST","endpoint":"/api/auth/admin/login","time":"2023-04-06T13:27:52+07:00"}
+[2023-04-06T13:27:52+07:00] | {"tag":"RES","from":"::1","method":"POST","endpoint":"/api/auth/admin/login","time":"2023-04-06T13:27:52+07:00","responseTime":"81 ms"}
+[2023-04-06T13:28:10+07:00] | {"tag":"REQ","from":"::1","method":"POST","endpoint":"/api/auth/admin/login","time":"2023-04-06T13:28:10+07:00"}
+[2023-04-06T13:28:10+07:00] | {"tag":"RES","from":"::1","method":"POST","endpoint":"/api/auth/admin/login","time":"2023-04-06T13:28:10+07:00","responseTime":"81 ms"}
+[2023-04-06T14:14:59+07:00] | {"tag":"REQ","from":"::1","method":"POST","endpoint":"/api/auth/admin/login","time":"2023-04-06T14:14:59+07:00"}
+[2023-04-06T14:14:59+07:00] | {"tag":"RES","from":"::1","method":"POST","endpoint":"/api/auth/admin/login","time":"2023-04-06T14:14:59+07:00","responseTime":"5 ms"}
+[2023-04-06T14:15:34+07:00] | {"tag":"REQ","from":"::1","method":"POST","endpoint":"/api/auth/admin/login","time":"2023-04-06T14:15:34+07:00"}
+[2023-04-06T14:15:34+07:00] | {"tag":"RES","from":"::1","method":"POST","endpoint":"/api/auth/admin/login","time":"2023-04-06T14:15:34+07:00","responseTime":"2 ms"}
+[2023-04-06T14:26:50+07:00] | {"tag":"REQ","from":"::1","method":"POST","endpoint":"/api/auth/admin/login","time":"2023-04-06T14:26:50+07:00"}
+[2023-04-06T14:26:50+07:00] | {"tag":"RES","from":"::1","method":"POST","endpoint":"/api/auth/admin/login","time":"2023-04-06T14:26:50+07:00","responseTime":"4 ms"}
+[2023-04-06T14:26:56+07:00] | {"tag":"REQ","from":"::1","method":"POST","endpoint":"/api/auth/admin/login","time":"2023-04-06T14:26:56+07:00"}
+[2023-04-06T14:26:56+07:00] | {"tag":"RES","from":"::1","method":"POST","endpoint":"/api/auth/admin/login","time":"2023-04-06T14:26:56+07:00","responseTime":"82 ms"}
+[2023-04-06T14:28:12+07:00] | {"tag":"REQ","from":"::1","method":"POST","endpoint":"/api/auth/admin/login","time":"2023-04-06T14:28:12+07:00"}
+[2023-04-06T14:28:12+07:00] | {"tag":"RES","from":"::1","method":"POST","endpoint":"/api/auth/admin/login","time":"2023-04-06T14:28:12+07:00","responseTime":"79 ms"}

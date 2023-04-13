@@ -1,7 +1,7 @@
 const winstonLoki = require("../config/lokiWinstonLog");
 
 const lokiMiddleware = (req, res, next) => {
-// return console.log(res)
+  // return console.log(res)
   res.on("finish", () => {
     // return console.log(res.body.code)
     //   console.log(`request url = ${req.originalUrl}`);
@@ -12,13 +12,14 @@ const lokiMiddleware = (req, res, next) => {
     let responseTime = res.body.responseTime;
     let statusCode = res.body.code;
     let method = req.method;
+    let message = res.body.message;
 
-    if (statusCode != "200" && statusCode != "204") {
+    if (statusCode != "00") {
       winstonLoki.log.error({
-        message: "error",
+        message: message,
         labels: {
           method: method,
-          url: url,
+          route: url,
           responseTime: responseTime,
           status: statusCode,
           //   data: res.body.data,
@@ -26,10 +27,10 @@ const lokiMiddleware = (req, res, next) => {
       });
     } else {
       winstonLoki.log.info({
-        message: "success",
+        message: message,
         labels: {
           method: method,
-          url: url,
+          route: url,
           responseTime: responseTime,
           status: statusCode,
           //   data: res.body.data,

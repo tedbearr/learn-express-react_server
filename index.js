@@ -44,7 +44,7 @@ app.use(logger.request);
 app.use(logger.response);
 
 app.use("/api/auth", auth);
-app.use("/api/products", products);
+app.use("/api/products", lokiMiddleware, products);
 
 app.listen(port, () => {
   console.log(`Run at ${port} `);

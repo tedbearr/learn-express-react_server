@@ -1,4 +1,6 @@
 const { count_metrics } = require("../config/metricsPrometheus");
+const moment = require("moment");
+moment.locale("id");
 
 const promMiddleware = (req, res, next) => {
   res.on("finish", () => {
@@ -11,14 +13,20 @@ const promMiddleware = (req, res, next) => {
     let responseTime = Math.round(parseInt(res.getHeader("x-response-time")));
     let statusCode = res.body.code;
     let method = req.method;
+    let date = moment().format("D");
+    let month = moment().format("M");
+    let year = moment().format("Y");
 
-    if (statusCode != "200" && statusCode != "204") {
+    if (statusCode != "00") {
       count_metrics
         .labels({
           issuer_name: "CMS",
           method: method,
           route: url,
           status_code: statusCode,
+          date: date,
+          month: month,
+          year: year,
         })
         .observe(responseTime);
     } else {
@@ -28,6 +36,9 @@ const promMiddleware = (req, res, next) => {
           method: method,
           route: url,
           status_code: statusCode,
+          date: date,
+          month: month,
+          year: year,
         })
         .observe(responseTime);
     }

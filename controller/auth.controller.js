@@ -374,6 +374,8 @@ const loginAdmin = async (req, res, next) => {
       data: {
         accessToken: accessToken,
         refreshToken: refreshToken,
+        username: checkData.username,
+        id: checkData.id,
       },
     };
 
@@ -389,10 +391,19 @@ const loginAdmin = async (req, res, next) => {
   }
 };
 
+const verifiedToken = async (req, res) => {
+  return res.status(200).json({
+    code: "00",
+    message: "Token Verified",
+    data: {},
+  });
+};
+
 module.exports = {
   validate,
   register,
   login,
   registerAdmin,
   loginAdmin,
+  verifiedToken,
 };

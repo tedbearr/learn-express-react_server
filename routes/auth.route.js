@@ -19,4 +19,6 @@ router.post(
   controller.loginAdmin
 );
 
+router.get("/authtoken", auth.authTokenAdmin, controller.verifiedToken);
+
 module.exports = router;

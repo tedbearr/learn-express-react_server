@@ -1,0 +1,218 @@
+[2023-04-14T10:56:44+07:00] | {"tag":"REQ","from":"::1","method":"POST","endpoint":"/api/auth/admin/login","time":"2023-04-14T10:56:44+07:00"}
+[2023-04-14T10:56:44+07:00] | {"tag":"RES","from":"::1","method":"POST","endpoint":"/api/auth/admin/login","time":"2023-04-14T10:56:44+07:00","responseTime":"278 ms"}
+[2023-04-14T10:56:44+07:00] | {"tag":"REQ","from":"::1","method":"GET","endpoint":"/api/auth/authtoken","time":"2023-04-14T10:56:44+07:00"}
+[2023-04-14T10:56:44+07:00] | {"tag":"RES","from":"::1","method":"GET","endpoint":"/api/auth/authtoken","time":"2023-04-14T10:56:44+07:00","responseTime":"4 ms"}
+[2023-04-14T10:56:44+07:00] | {"tag":"REQ","from":"::1","method":"GET","endpoint":"/api/auth/authtoken","time":"2023-04-14T10:56:44+07:00"}
+[2023-04-14T10:56:44+07:00] | {"tag":"RES","from":"::1","method":"GET","endpoint":"/api/auth/authtoken","time":"2023-04-14T10:56:44+07:00","responseTime":"2 ms"}
+[2023-04-14T10:56:51+07:00] | {"tag":"REQ","from":"::1","method":"GET","endpoint":"/api/auth/authtoken","time":"2023-04-14T10:56:51+07:00"}
+[2023-04-14T10:56:51+07:00] | {"tag":"RES","from":"::1","method":"GET","endpoint":"/api/auth/authtoken","time":"2023-04-14T10:56:51+07:00","responseTime":"3 ms"}
+[2023-04-14T10:56:51+07:00] | {"tag":"REQ","from":"::1","method":"GET","endpoint":"/api/auth/authtoken","time":"2023-04-14T10:56:51+07:00"}
+[2023-04-14T10:56:51+07:00] | {"tag":"RES","from":"::1","method":"GET","endpoint":"/api/auth/authtoken","time":"2023-04-14T10:56:51+07:00","responseTime":"3 ms"}
+[2023-04-14T10:57:31+07:00] | {"tag":"REQ","from":"::1","method":"POST","endpoint":"/api/auth/admin/login","time":"2023-04-14T10:57:31+07:00"}
+[2023-04-14T10:57:31+07:00] | {"tag":"RES","from":"::1","method":"POST","endpoint":"/api/auth/admin/login","time":"2023-04-14T10:57:31+07:00","responseTime":"84 ms"}
+[2023-04-14T10:57:31+07:00] | {"tag":"REQ","from":"::1","method":"GET","endpoint":"/api/auth/authtoken","time":"2023-04-14T10:57:31+07:00"}
+[2023-04-14T10:57:31+07:00] | {"tag":"RES","from":"::1","method":"GET","endpoint":"/api/auth/authtoken","time":"2023-04-14T10:57:31+07:00","responseTime":"3 ms"}
+[2023-04-14T10:57:31+07:00] | {"tag":"REQ","from":"::1","method":"GET","endpoint":"/api/auth/authtoken","time":"2023-04-14T10:57:31+07:00"}
+[2023-04-14T10:57:31+07:00] | {"tag":"RES","from":"::1","method":"GET","endpoint":"/api/auth/authtoken","time":"2023-04-14T10:57:31+07:00","responseTime":"2 ms"}
+[2023-04-14T10:57:36+07:00] | {"tag":"REQ","from":"::1","method":"GET","endpoint":"/api/auth/authtoken","time":"2023-04-14T10:57:36+07:00"}
+[2023-04-14T10:57:36+07:00] | {"tag":"RES","from":"::1","method":"GET","endpoint":"/api/auth/authtoken","time":"2023-04-14T10:57:36+07:00","responseTime":"2 ms"}
+[2023-04-14T10:57:36+07:00] | {"tag":"REQ","from":"::1","method":"GET","endpoint":"/api/auth/authtoken","time":"2023-04-14T10:57:36+07:00"}
+[2023-04-14T10:57:36+07:00] | {"tag":"RES","from":"::1","method":"GET","endpoint":"/api/auth/authtoken","time":"2023-04-14T10:57:36+07:00","responseTime":"3 ms"}
+[2023-04-14T10:58:17+07:00] | {"tag":"REQ","from":"::1","method":"POST","endpoint":"/api/auth/admin/login","time":"2023-04-14T10:58:17+07:00"}
+[2023-04-14T10:58:17+07:00] | {"tag":"RES","from":"::1","method":"POST","endpoint":"/api/auth/admin/login","time":"2023-04-14T10:58:17+07:00","responseTime":"105 ms"}
+[2023-04-14T10:58:17+07:00] | {"tag":"REQ","from":"::1","method":"GET","endpoint":"/api/auth/authtoken","time":"2023-04-14T10:58:17+07:00"}
+[2023-04-14T10:58:17+07:00] | {"tag":"RES","from":"::1","method":"GET","endpoint":"/api/auth/authtoken","time":"2023-04-14T10:58:17+07:00","responseTime":"2 ms"}
+[2023-04-14T10:58:17+07:00] | {"tag":"REQ","from":"::1","method":"GET","endpoint":"/api/auth/authtoken","time":"2023-04-14T10:58:17+07:00"}
+[2023-04-14T10:58:17+07:00] | {"tag":"RES","from":"::1","method":"GET","endpoint":"/api/auth/authtoken","time":"2023-04-14T10:58:17+07:00","responseTime":"3 ms"}
+[2023-04-14T10:58:21+07:00] | {"tag":"REQ","from":"::1","method":"GET","endpoint":"/api/auth/authtoken","time":"2023-04-14T10:58:21+07:00"}
+[2023-04-14T10:58:21+07:00] | {"tag":"RES","from":"::1","method":"GET","endpoint":"/api/auth/authtoken","time":"2023-04-14T10:58:21+07:00","responseTime":"3 ms"}
+[2023-04-14T10:58:21+07:00] | {"tag":"REQ","from":"::1","method":"GET","endpoint":"/api/auth/authtoken","time":"2023-04-14T10:58:21+07:00"}
+[2023-04-14T10:58:21+07:00] | {"tag":"RES","from":"::1","method":"GET","endpoint":"/api/auth/authtoken","time":"2023-04-14T10:58:21+07:00","responseTime":"2 ms"}
+[2023-04-14T10:58:25+07:00] | {"tag":"REQ","from":"::1","method":"GET","endpoint":"/api/auth/authtoken","time":"2023-04-14T10:58:25+07:00"}
+[2023-04-14T10:58:25+07:00] | {"tag":"RES","from":"::1","method":"GET","endpoint":"/api/auth/authtoken","time":"2023-04-14T10:58:25+07:00","responseTime":"3 ms"}
+[2023-04-14T10:58:25+07:00] | {"tag":"REQ","from":"::1","method":"GET","endpoint":"/api/auth/authtoken","time":"2023-04-14T10:58:25+07:00"}
+[2023-04-14T10:58:25+07:00] | {"tag":"RES","from":"::1","method":"GET","endpoint":"/api/auth/authtoken","time":"2023-04-14T10:58:25+07:00","responseTime":"3 ms"}
+[2023-04-14T10:58:52+07:00] | {"tag":"REQ","from":"::1","method":"POST","endpoint":"/api/auth/admin/login","time":"2023-04-14T10:58:52+07:00"}
+[2023-04-14T10:58:52+07:00] | {"tag":"RES","from":"::1","method":"POST","endpoint":"/api/auth/admin/login","time":"2023-04-14T10:58:52+07:00","responseTime":"81 ms"}
+[2023-04-14T10:58:52+07:00] | {"tag":"REQ","from":"::1","method":"GET","endpoint":"/api/auth/authtoken","time":"2023-04-14T10:58:52+07:00"}
+[2023-04-14T10:58:52+07:00] | {"tag":"RES","from":"::1","method":"GET","endpoint":"/api/auth/authtoken","time":"2023-04-14T10:58:52+07:00","responseTime":"3 ms"}
+[2023-04-14T10:58:52+07:00] | {"tag":"REQ","from":"::1","method":"GET","endpoint":"/api/auth/authtoken","time":"2023-04-14T10:58:52+07:00"}
+[2023-04-14T10:58:52+07:00] | {"tag":"RES","from":"::1","method":"GET","endpoint":"/api/auth/authtoken","time":"2023-04-14T10:58:52+07:00","responseTime":"2 ms"}
+[2023-04-14T10:58:54+07:00] | {"tag":"REQ","from":"::1","method":"GET","endpoint":"/api/auth/authtoken","time":"2023-04-14T10:58:54+07:00"}
+[2023-04-14T10:58:54+07:00] | {"tag":"RES","from":"::1","method":"GET","endpoint":"/api/auth/authtoken","time":"2023-04-14T10:58:54+07:00","responseTime":"2 ms"}
+[2023-04-14T10:58:54+07:00] | {"tag":"REQ","from":"::1","method":"GET","endpoint":"/api/auth/authtoken","time":"2023-04-14T10:58:54+07:00"}
+[2023-04-14T10:58:54+07:00] | {"tag":"RES","from":"::1","method":"GET","endpoint":"/api/auth/authtoken","time":"2023-04-14T10:58:54+07:00","responseTime":"1 ms"}
+[2023-04-14T10:58:55+07:00] | {"tag":"REQ","from":"::1","method":"GET","endpoint":"/api/auth/authtoken","time":"2023-04-14T10:58:55+07:00"}
+[2023-04-14T10:58:55+07:00] | {"tag":"RES","from":"::1","method":"GET","endpoint":"/api/auth/authtoken","time":"2023-04-14T10:58:55+07:00","responseTime":"2 ms"}
+[2023-04-14T10:58:55+07:00] | {"tag":"REQ","from":"::1","method":"GET","endpoint":"/api/auth/authtoken","time":"2023-04-14T10:58:55+07:00"}
+[2023-04-14T10:58:55+07:00] | {"tag":"RES","from":"::1","method":"GET","endpoint":"/api/auth/authtoken","time":"2023-04-14T10:58:55+07:00","responseTime":"3 ms"}
+[2023-04-14T10:58:56+07:00] | {"tag":"REQ","from":"::1","method":"GET","endpoint":"/api/auth/authtoken","time":"2023-04-14T10:58:56+07:00"}
+[2023-04-14T10:58:56+07:00] | {"tag":"RES","from":"::1","method":"GET","endpoint":"/api/auth/authtoken","time":"2023-04-14T10:58:56+07:00","responseTime":"2 ms"}
+[2023-04-14T10:58:56+07:00] | {"tag":"REQ","from":"::1","method":"GET","endpoint":"/api/auth/authtoken","time":"2023-04-14T10:58:56+07:00"}
+[2023-04-14T10:58:56+07:00] | {"tag":"RES","from":"::1","method":"GET","endpoint":"/api/auth/authtoken","time":"2023-04-14T10:58:56+07:00","responseTime":"2 ms"}
+[2023-04-14T10:59:00+07:00] | {"tag":"REQ","from":"::1","method":"GET","endpoint":"/api/auth/authtoken","time":"2023-04-14T10:59:00+07:00"}
+[2023-04-14T10:59:00+07:00] | {"tag":"RES","from":"::1","method":"GET","endpoint":"/api/auth/authtoken","time":"2023-04-14T10:59:00+07:00","responseTime":"2 ms"}
+[2023-04-14T10:59:00+07:00] | {"tag":"REQ","from":"::1","method":"GET","endpoint":"/api/auth/authtoken","time":"2023-04-14T10:59:00+07:00"}
+[2023-04-14T10:59:00+07:00] | {"tag":"RES","from":"::1","method":"GET","endpoint":"/api/auth/authtoken","time":"2023-04-14T10:59:00+07:00","responseTime":"3 ms"}
+[2023-04-14T10:59:09+07:00] | {"tag":"REQ","from":"::1","method":"GET","endpoint":"/api/auth/authtoken","time":"2023-04-14T10:59:09+07:00"}
+[2023-04-14T10:59:09+07:00] | {"tag":"RES","from":"::1","method":"GET","endpoint":"/api/auth/authtoken","time":"2023-04-14T10:59:09+07:00","responseTime":"2 ms"}
+[2023-04-14T10:59:09+07:00] | {"tag":"REQ","from":"::1","method":"GET","endpoint":"/api/auth/authtoken","time":"2023-04-14T10:59:09+07:00"}
+[2023-04-14T10:59:09+07:00] | {"tag":"RES","from":"::1","method":"GET","endpoint":"/api/auth/authtoken","time":"2023-04-14T10:59:09+07:00","responseTime":"2 ms"}
+[2023-04-14T11:00:46+07:00] | {"tag":"REQ","from":"::1","method":"POST","endpoint":"/api/auth/admin/login","time":"2023-04-14T11:00:46+07:00"}
+[2023-04-14T11:00:46+07:00] | {"tag":"RES","from":"::1","method":"POST","endpoint":"/api/auth/admin/login","time":"2023-04-14T11:00:46+07:00","responseTime":"83 ms"}
+[2023-04-14T11:00:46+07:00] | {"tag":"REQ","from":"::1","method":"GET","endpoint":"/api/auth/authtoken","time":"2023-04-14T11:00:46+07:00"}
+[2023-04-14T11:00:46+07:00] | {"tag":"RES","from":"::1","method":"GET","endpoint":"/api/auth/authtoken","time":"2023-04-14T11:00:46+07:00","responseTime":"2 ms"}
+[2023-04-14T11:00:46+07:00] | {"tag":"REQ","from":"::1","method":"GET","endpoint":"/api/auth/authtoken","time":"2023-04-14T11:00:46+07:00"}
+[2023-04-14T11:00:46+07:00] | {"tag":"RES","from":"::1","method":"GET","endpoint":"/api/auth/authtoken","time":"2023-04-14T11:00:46+07:00","responseTime":"2 ms"}
+[2023-04-14T11:00:51+07:00] | {"tag":"REQ","from":"::1","method":"GET","endpoint":"/api/auth/authtoken","time":"2023-04-14T11:00:51+07:00"}
+[2023-04-14T11:00:51+07:00] | {"tag":"RES","from":"::1","method":"GET","endpoint":"/api/auth/authtoken","time":"2023-04-14T11:00:51+07:00","responseTime":"2 ms"}
+[2023-04-14T11:00:51+07:00] | {"tag":"REQ","from":"::1","method":"GET","endpoint":"/api/auth/authtoken","time":"2023-04-14T11:00:51+07:00"}
+[2023-04-14T11:00:51+07:00] | {"tag":"RES","from":"::1","method":"GET","endpoint":"/api/auth/authtoken","time":"2023-04-14T11:00:51+07:00","responseTime":"2 ms"}
+[2023-04-14T11:00:51+07:00] | {"tag":"REQ","from":"::1","method":"GET","endpoint":"/api/auth/authtoken","time":"2023-04-14T11:00:51+07:00"}
+[2023-04-14T11:00:51+07:00] | {"tag":"RES","from":"::1","method":"GET","endpoint":"/api/auth/authtoken","time":"2023-04-14T11:00:51+07:00","responseTime":"2 ms"}
+[2023-04-14T11:00:51+07:00] | {"tag":"REQ","from":"::1","method":"GET","endpoint":"/api/auth/authtoken","time":"2023-04-14T11:00:51+07:00"}
+[2023-04-14T11:00:51+07:00] | {"tag":"RES","from":"::1","method":"GET","endpoint":"/api/auth/authtoken","time":"2023-04-14T11:00:51+07:00","responseTime":"1 ms"}
+[2023-04-14T11:00:51+07:00] | {"tag":"REQ","from":"::1","method":"GET","endpoint":"/api/auth/authtoken","time":"2023-04-14T11:00:51+07:00"}
+[2023-04-14T11:00:51+07:00] | {"tag":"RES","from":"::1","method":"GET","endpoint":"/api/auth/authtoken","time":"2023-04-14T11:00:51+07:00","responseTime":"3 ms"}
+[2023-04-14T11:00:51+07:00] | {"tag":"REQ","from":"::1","method":"GET","endpoint":"/api/auth/authtoken","time":"2023-04-14T11:00:51+07:00"}
+[2023-04-14T11:00:51+07:00] | {"tag":"RES","from":"::1","method":"GET","endpoint":"/api/auth/authtoken","time":"2023-04-14T11:00:51+07:00","responseTime":"2 ms"}
+[2023-04-14T11:00:52+07:00] | {"tag":"REQ","from":"::1","method":"GET","endpoint":"/api/auth/authtoken","time":"2023-04-14T11:00:52+07:00"}
+[2023-04-14T11:00:52+07:00] | {"tag":"RES","from":"::1","method":"GET","endpoint":"/api/auth/authtoken","time":"2023-04-14T11:00:52+07:00","responseTime":"2 ms"}
+[2023-04-14T11:00:52+07:00] | {"tag":"REQ","from":"::1","method":"GET","endpoint":"/api/auth/authtoken","time":"2023-04-14T11:00:52+07:00"}
+[2023-04-14T11:00:52+07:00] | {"tag":"RES","from":"::1","method":"GET","endpoint":"/api/auth/authtoken","time":"2023-04-14T11:00:52+07:00","responseTime":"2 ms"}
+[2023-04-14T11:01:12+07:00] | {"tag":"REQ","from":"::1","method":"GET","endpoint":"/api/auth/authtoken","time":"2023-04-14T11:01:12+07:00"}
+[2023-04-14T11:01:12+07:00] | {"tag":"RES","from":"::1","method":"GET","endpoint":"/api/auth/authtoken","time":"2023-04-14T11:01:12+07:00","responseTime":"1 ms"}
+[2023-04-14T11:01:13+07:00] | {"tag":"REQ","from":"::1","method":"GET","endpoint":"/api/auth/authtoken","time":"2023-04-14T11:01:13+07:00"}
+[2023-04-14T11:01:13+07:00] | {"tag":"RES","from":"::1","method":"GET","endpoint":"/api/auth/authtoken","time":"2023-04-14T11:01:13+07:00","responseTime":"2 ms"}
+[2023-04-14T11:01:13+07:00] | {"tag":"REQ","from":"::1","method":"GET","endpoint":"/api/auth/authtoken","time":"2023-04-14T11:01:13+07:00"}
+[2023-04-14T11:01:13+07:00] | {"tag":"RES","from":"::1","method":"GET","endpoint":"/api/auth/authtoken","time":"2023-04-14T11:01:13+07:00","responseTime":"1 ms"}
+[2023-04-14T11:01:14+07:00] | {"tag":"REQ","from":"::1","method":"GET","endpoint":"/api/auth/authtoken","time":"2023-04-14T11:01:14+07:00"}
+[2023-04-14T11:01:14+07:00] | {"tag":"RES","from":"::1","method":"GET","endpoint":"/api/auth/authtoken","time":"2023-04-14T11:01:14+07:00","responseTime":"2 ms"}
+[2023-04-14T11:01:14+07:00] | {"tag":"REQ","from":"::1","method":"GET","endpoint":"/api/auth/authtoken","time":"2023-04-14T11:01:14+07:00"}
+[2023-04-14T11:01:14+07:00] | {"tag":"RES","from":"::1","method":"GET","endpoint":"/api/auth/authtoken","time":"2023-04-14T11:01:14+07:00","responseTime":"1 ms"}
+[2023-04-14T11:01:15+07:00] | {"tag":"REQ","from":"::1","method":"GET","endpoint":"/api/auth/authtoken","time":"2023-04-14T11:01:15+07:00"}
+[2023-04-14T11:01:15+07:00] | {"tag":"RES","from":"::1","method":"GET","endpoint":"/api/auth/authtoken","time":"2023-04-14T11:01:15+07:00","responseTime":"1 ms"}
+[2023-04-14T11:01:15+07:00] | {"tag":"REQ","from":"::1","method":"GET","endpoint":"/api/auth/authtoken","time":"2023-04-14T11:01:15+07:00"}
+[2023-04-14T11:01:15+07:00] | {"tag":"RES","from":"::1","method":"GET","endpoint":"/api/auth/authtoken","time":"2023-04-14T11:01:15+07:00","responseTime":"1 ms"}
+[2023-04-14T11:01:16+07:00] | {"tag":"REQ","from":"::1","method":"GET","endpoint":"/api/auth/authtoken","time":"2023-04-14T11:01:16+07:00"}
+[2023-04-14T11:01:16+07:00] | {"tag":"RES","from":"::1","method":"GET","endpoint":"/api/auth/authtoken","time":"2023-04-14T11:01:16+07:00","responseTime":"1 ms"}
+[2023-04-14T11:01:17+07:00] | {"tag":"REQ","from":"::1","method":"GET","endpoint":"/api/auth/authtoken","time":"2023-04-14T11:01:17+07:00"}
+[2023-04-14T11:01:17+07:00] | {"tag":"RES","from":"::1","method":"GET","endpoint":"/api/auth/authtoken","time":"2023-04-14T11:01:17+07:00","responseTime":"1 ms"}
+[2023-04-14T11:01:18+07:00] | {"tag":"REQ","from":"::1","method":"GET","endpoint":"/api/auth/authtoken","time":"2023-04-14T11:01:18+07:00"}
+[2023-04-14T11:01:18+07:00] | {"tag":"RES","from":"::1","method":"GET","endpoint":"/api/auth/authtoken","time":"2023-04-14T11:01:18+07:00","responseTime":"1 ms"}
+[2023-04-14T11:01:18+07:00] | {"tag":"REQ","from":"::1","method":"GET","endpoint":"/api/auth/authtoken","time":"2023-04-14T11:01:18+07:00"}
+[2023-04-14T11:01:18+07:00] | {"tag":"RES","from":"::1","method":"GET","endpoint":"/api/auth/authtoken","time":"2023-04-14T11:01:18+07:00","responseTime":"1 ms"}
+[2023-04-14T11:01:19+07:00] | {"tag":"REQ","from":"::1","method":"GET","endpoint":"/api/auth/authtoken","time":"2023-04-14T11:01:19+07:00"}
+[2023-04-14T11:01:19+07:00] | {"tag":"RES","from":"::1","method":"GET","endpoint":"/api/auth/authtoken","time":"2023-04-14T11:01:19+07:00","responseTime":"1 ms"}
+[2023-04-14T11:01:35+07:00] | {"tag":"REQ","from":"::1","method":"GET","endpoint":"/api/auth/authtoken","time":"2023-04-14T11:01:35+07:00"}
+[2023-04-14T11:01:35+07:00] | {"tag":"RES","from":"::1","method":"GET","endpoint":"/api/auth/authtoken","time":"2023-04-14T11:01:35+07:00","responseTime":"1 ms"}
+[2023-04-14T11:01:36+07:00] | {"tag":"REQ","from":"::1","method":"GET","endpoint":"/api/auth/authtoken","time":"2023-04-14T11:01:36+07:00"}
+[2023-04-14T11:01:36+07:00] | {"tag":"RES","from":"::1","method":"GET","endpoint":"/api/auth/authtoken","time":"2023-04-14T11:01:36+07:00","responseTime":"2 ms"}
+[2023-04-14T11:01:52+07:00] | {"tag":"REQ","from":"::1","method":"GET","endpoint":"/api/auth/authtoken","time":"2023-04-14T11:01:52+07:00"}
+[2023-04-14T11:01:52+07:00] | {"tag":"RES","from":"::1","method":"GET","endpoint":"/api/auth/authtoken","time":"2023-04-14T11:01:52+07:00","responseTime":"1 ms"}
+[2023-04-14T11:01:55+07:00] | {"tag":"REQ","from":"::1","method":"GET","endpoint":"/api/auth/authtoken","time":"2023-04-14T11:01:55+07:00"}
+[2023-04-14T11:01:55+07:00] | {"tag":"RES","from":"::1","method":"GET","endpoint":"/api/auth/authtoken","time":"2023-04-14T11:01:55+07:00","responseTime":"2 ms"}
+[2023-04-14T11:01:55+07:00] | {"tag":"REQ","from":"::1","method":"GET","endpoint":"/api/auth/authtoken","time":"2023-04-14T11:01:55+07:00"}
+[2023-04-14T11:01:55+07:00] | {"tag":"RES","from":"::1","method":"GET","endpoint":"/api/auth/authtoken","time":"2023-04-14T11:01:55+07:00","responseTime":"1 ms"}
+[2023-04-14T11:01:56+07:00] | {"tag":"REQ","from":"::1","method":"GET","endpoint":"/api/auth/authtoken","time":"2023-04-14T11:01:56+07:00"}
+[2023-04-14T11:01:56+07:00] | {"tag":"RES","from":"::1","method":"GET","endpoint":"/api/auth/authtoken","time":"2023-04-14T11:01:56+07:00","responseTime":"1 ms"}
+[2023-04-14T11:01:56+07:00] | {"tag":"REQ","from":"::1","method":"GET","endpoint":"/api/auth/authtoken","time":"2023-04-14T11:01:56+07:00"}
+[2023-04-14T11:01:56+07:00] | {"tag":"RES","from":"::1","method":"GET","endpoint":"/api/auth/authtoken","time":"2023-04-14T11:01:56+07:00","responseTime":"2 ms"}
+[2023-04-14T11:01:57+07:00] | {"tag":"REQ","from":"::1","method":"GET","endpoint":"/api/auth/authtoken","time":"2023-04-14T11:01:57+07:00"}
+[2023-04-14T11:01:57+07:00] | {"tag":"RES","from":"::1","method":"GET","endpoint":"/api/auth/authtoken","time":"2023-04-14T11:01:57+07:00","responseTime":"3 ms"}
+[2023-04-14T11:01:57+07:00] | {"tag":"REQ","from":"::1","method":"GET","endpoint":"/api/auth/authtoken","time":"2023-04-14T11:01:57+07:00"}
+[2023-04-14T11:01:57+07:00] | {"tag":"RES","from":"::1","method":"GET","endpoint":"/api/auth/authtoken","time":"2023-04-14T11:01:57+07:00","responseTime":"2 ms"}
+[2023-04-14T11:01:58+07:00] | {"tag":"REQ","from":"::1","method":"GET","endpoint":"/api/auth/authtoken","time":"2023-04-14T11:01:58+07:00"}
+[2023-04-14T11:01:58+07:00] | {"tag":"RES","from":"::1","method":"GET","endpoint":"/api/auth/authtoken","time":"2023-04-14T11:01:58+07:00","responseTime":"2 ms"}
+[2023-04-14T11:03:31+07:00] | {"tag":"REQ","from":"::1","method":"GET","endpoint":"/api/auth/authtoken","time":"2023-04-14T11:03:31+07:00"}
+[2023-04-14T11:03:31+07:00] | {"tag":"RES","from":"::1","method":"GET","endpoint":"/api/auth/authtoken","time":"2023-04-14T11:03:31+07:00","responseTime":"2 ms"}
+[2023-04-14T11:03:33+07:00] | {"tag":"REQ","from":"::1","method":"GET","endpoint":"/api/auth/authtoken","time":"2023-04-14T11:03:33+07:00"}
+[2023-04-14T11:03:33+07:00] | {"tag":"RES","from":"::1","method":"GET","endpoint":"/api/auth/authtoken","time":"2023-04-14T11:03:33+07:00","responseTime":"3 ms"}
+[2023-04-14T11:03:33+07:00] | {"tag":"REQ","from":"::1","method":"GET","endpoint":"/api/auth/authtoken","time":"2023-04-14T11:03:33+07:00"}
+[2023-04-14T11:03:33+07:00] | {"tag":"RES","from":"::1","method":"GET","endpoint":"/api/auth/authtoken","time":"2023-04-14T11:03:33+07:00","responseTime":"3 ms"}
+[2023-04-14T11:03:54+07:00] | {"tag":"REQ","from":"::1","method":"GET","endpoint":"/api/auth/authtoken","time":"2023-04-14T11:03:54+07:00"}
+[2023-04-14T11:03:54+07:00] | {"tag":"RES","from":"::1","method":"GET","endpoint":"/api/auth/authtoken","time":"2023-04-14T11:03:54+07:00","responseTime":"1 ms"}
+[2023-04-14T11:03:55+07:00] | {"tag":"REQ","from":"::1","method":"GET","endpoint":"/api/auth/authtoken","time":"2023-04-14T11:03:55+07:00"}
+[2023-04-14T11:03:55+07:00] | {"tag":"RES","from":"::1","method":"GET","endpoint":"/api/auth/authtoken","time":"2023-04-14T11:03:55+07:00","responseTime":"3 ms"}
+[2023-04-14T11:03:55+07:00] | {"tag":"REQ","from":"::1","method":"GET","endpoint":"/api/auth/authtoken","time":"2023-04-14T11:03:55+07:00"}
+[2023-04-14T11:03:55+07:00] | {"tag":"RES","from":"::1","method":"GET","endpoint":"/api/auth/authtoken","time":"2023-04-14T11:03:55+07:00","responseTime":"1 ms"}
+[2023-04-14T11:04:08+07:00] | {"tag":"REQ","from":"::1","method":"GET","endpoint":"/api/auth/authtoken","time":"2023-04-14T11:04:08+07:00"}
+[2023-04-14T11:04:08+07:00] | {"tag":"RES","from":"::1","method":"GET","endpoint":"/api/auth/authtoken","time":"2023-04-14T11:04:08+07:00","responseTime":"2 ms"}
+[2023-04-14T11:05:42+07:00] | {"tag":"REQ","from":"::1","method":"GET","endpoint":"/api/auth/authtoken","time":"2023-04-14T11:05:42+07:00"}
+[2023-04-14T11:05:42+07:00] | {"tag":"RES","from":"::1","method":"GET","endpoint":"/api/auth/authtoken","time":"2023-04-14T11:05:42+07:00","responseTime":"2 ms"}
+[2023-04-14T11:05:43+07:00] | {"tag":"REQ","from":"::1","method":"GET","endpoint":"/api/auth/authtoken","time":"2023-04-14T11:05:43+07:00"}
+[2023-04-14T11:05:43+07:00] | {"tag":"RES","from":"::1","method":"GET","endpoint":"/api/auth/authtoken","time":"2023-04-14T11:05:43+07:00","responseTime":"2 ms"}
+[2023-04-14T11:05:44+07:00] | {"tag":"REQ","from":"::1","method":"GET","endpoint":"/api/auth/authtoken","time":"2023-04-14T11:05:44+07:00"}
+[2023-04-14T11:05:44+07:00] | {"tag":"RES","from":"::1","method":"GET","endpoint":"/api/auth/authtoken","time":"2023-04-14T11:05:44+07:00","responseTime":"3 ms"}
+[2023-04-14T11:06:16+07:00] | {"tag":"REQ","from":"::1","method":"GET","endpoint":"/api/auth/authtoken","time":"2023-04-14T11:06:16+07:00"}
+[2023-04-14T11:06:16+07:00] | {"tag":"RES","from":"::1","method":"GET","endpoint":"/api/auth/authtoken","time":"2023-04-14T11:06:16+07:00","responseTime":"1 ms"}
+[2023-04-14T11:06:17+07:00] | {"tag":"REQ","from":"::1","method":"GET","endpoint":"/api/auth/authtoken","time":"2023-04-14T11:06:17+07:00"}
+[2023-04-14T11:06:17+07:00] | {"tag":"RES","from":"::1","method":"GET","endpoint":"/api/auth/authtoken","time":"2023-04-14T11:06:17+07:00","responseTime":"1 ms"}
+[2023-04-14T11:06:17+07:00] | {"tag":"REQ","from":"::1","method":"GET","endpoint":"/api/auth/authtoken","time":"2023-04-14T11:06:17+07:00"}
+[2023-04-14T11:06:17+07:00] | {"tag":"RES","from":"::1","method":"GET","endpoint":"/api/auth/authtoken","time":"2023-04-14T11:06:17+07:00","responseTime":"2 ms"}
+[2023-04-14T11:06:18+07:00] | {"tag":"REQ","from":"::1","method":"GET","endpoint":"/api/auth/authtoken","time":"2023-04-14T11:06:18+07:00"}
+[2023-04-14T11:06:18+07:00] | {"tag":"RES","from":"::1","method":"GET","endpoint":"/api/auth/authtoken","time":"2023-04-14T11:06:18+07:00","responseTime":"2 ms"}
+[2023-04-14T11:06:30+07:00] | {"tag":"REQ","from":"::1","method":"GET","endpoint":"/api/auth/authtoken","time":"2023-04-14T11:06:30+07:00"}
+[2023-04-14T11:06:30+07:00] | {"tag":"RES","from":"::1","method":"GET","endpoint":"/api/auth/authtoken","time":"2023-04-14T11:06:30+07:00","responseTime":"2 ms"}
+[2023-04-14T11:06:49+07:00] | {"tag":"REQ","from":"::1","method":"GET","endpoint":"/api/auth/authtoken","time":"2023-04-14T11:06:49+07:00"}
+[2023-04-14T11:06:49+07:00] | {"tag":"RES","from":"::1","method":"GET","endpoint":"/api/auth/authtoken","time":"2023-04-14T11:06:49+07:00","responseTime":"2 ms"}
+[2023-04-14T11:06:49+07:00] | {"tag":"REQ","from":"::1","method":"GET","endpoint":"/api/auth/authtoken","time":"2023-04-14T11:06:49+07:00"}
+[2023-04-14T11:06:49+07:00] | {"tag":"RES","from":"::1","method":"GET","endpoint":"/api/auth/authtoken","time":"2023-04-14T11:06:49+07:00","responseTime":"2 ms"}
+[2023-04-14T11:06:52+07:00] | {"tag":"REQ","from":"::1","method":"GET","endpoint":"/api/auth/authtoken","time":"2023-04-14T11:06:52+07:00"}
+[2023-04-14T11:06:52+07:00] | {"tag":"RES","from":"::1","method":"GET","endpoint":"/api/auth/authtoken","time":"2023-04-14T11:06:52+07:00","responseTime":"2 ms"}
+[2023-04-14T11:06:52+07:00] | {"tag":"REQ","from":"::1","method":"GET","endpoint":"/api/auth/authtoken","time":"2023-04-14T11:06:52+07:00"}
+[2023-04-14T11:06:52+07:00] | {"tag":"RES","from":"::1","method":"GET","endpoint":"/api/auth/authtoken","time":"2023-04-14T11:06:52+07:00","responseTime":"2 ms"}
+[2023-04-14T11:06:53+07:00] | {"tag":"REQ","from":"::1","method":"GET","endpoint":"/api/auth/authtoken","time":"2023-04-14T11:06:53+07:00"}
+[2023-04-14T11:06:53+07:00] | {"tag":"RES","from":"::1","method":"GET","endpoint":"/api/auth/authtoken","time":"2023-04-14T11:06:53+07:00","responseTime":"3 ms"}
+[2023-04-14T11:06:55+07:00] | {"tag":"REQ","from":"::1","method":"GET","endpoint":"/api/auth/authtoken","time":"2023-04-14T11:06:55+07:00"}
+[2023-04-14T11:06:55+07:00] | {"tag":"RES","from":"::1","method":"GET","endpoint":"/api/auth/authtoken","time":"2023-04-14T11:06:55+07:00","responseTime":"2 ms"}
+[2023-04-14T11:06:56+07:00] | {"tag":"REQ","from":"::1","method":"GET","endpoint":"/api/auth/authtoken","time":"2023-04-14T11:06:56+07:00"}
+[2023-04-14T11:06:56+07:00] | {"tag":"RES","from":"::1","method":"GET","endpoint":"/api/auth/authtoken","time":"2023-04-14T11:06:56+07:00","responseTime":"2 ms"}
+[2023-04-14T11:08:41+07:00] | {"tag":"REQ","from":"::1","method":"GET","endpoint":"/api/auth/authtoken","time":"2023-04-14T11:08:41+07:00"}
+[2023-04-14T11:08:41+07:00] | {"tag":"RES","from":"::1","method":"GET","endpoint":"/api/auth/authtoken","time":"2023-04-14T11:08:41+07:00","responseTime":"1 ms"}
+[2023-04-14T11:08:42+07:00] | {"tag":"REQ","from":"::1","method":"GET","endpoint":"/api/auth/authtoken","time":"2023-04-14T11:08:42+07:00"}
+[2023-04-14T11:08:42+07:00] | {"tag":"RES","from":"::1","method":"GET","endpoint":"/api/auth/authtoken","time":"2023-04-14T11:08:42+07:00","responseTime":"2 ms"}
+[2023-04-14T11:08:43+07:00] | {"tag":"REQ","from":"::1","method":"GET","endpoint":"/api/auth/authtoken","time":"2023-04-14T11:08:43+07:00"}
+[2023-04-14T11:08:43+07:00] | {"tag":"RES","from":"::1","method":"GET","endpoint":"/api/auth/authtoken","time":"2023-04-14T11:08:43+07:00","responseTime":"1 ms"}
+[2023-04-14T11:08:47+07:00] | {"tag":"REQ","from":"::1","method":"GET","endpoint":"/api/auth/authtoken","time":"2023-04-14T11:08:47+07:00"}
+[2023-04-14T11:08:47+07:00] | {"tag":"RES","from":"::1","method":"GET","endpoint":"/api/auth/authtoken","time":"2023-04-14T11:08:47+07:00","responseTime":"1 ms"}
+[2023-04-14T11:08:48+07:00] | {"tag":"REQ","from":"::1","method":"GET","endpoint":"/api/auth/authtoken","time":"2023-04-14T11:08:48+07:00"}
+[2023-04-14T11:08:48+07:00] | {"tag":"RES","from":"::1","method":"GET","endpoint":"/api/auth/authtoken","time":"2023-04-14T11:08:48+07:00","responseTime":"3 ms"}
+[2023-04-14T11:08:48+07:00] | {"tag":"REQ","from":"::1","method":"GET","endpoint":"/api/auth/authtoken","time":"2023-04-14T11:08:48+07:00"}
+[2023-04-14T11:08:48+07:00] | {"tag":"RES","from":"::1","method":"GET","endpoint":"/api/auth/authtoken","time":"2023-04-14T11:08:48+07:00","responseTime":"2 ms"}
+[2023-04-14T11:09:03+07:00] | {"tag":"REQ","from":"::1","method":"GET","endpoint":"/api/auth/authtoken","time":"2023-04-14T11:09:03+07:00"}
+[2023-04-14T11:09:03+07:00] | {"tag":"RES","from":"::1","method":"GET","endpoint":"/api/auth/authtoken","time":"2023-04-14T11:09:03+07:00","responseTime":"2 ms"}
+[2023-04-14T11:09:04+07:00] | {"tag":"REQ","from":"::1","method":"GET","endpoint":"/api/auth/authtoken","time":"2023-04-14T11:09:04+07:00"}
+[2023-04-14T11:09:04+07:00] | {"tag":"RES","from":"::1","method":"GET","endpoint":"/api/auth/authtoken","time":"2023-04-14T11:09:04+07:00","responseTime":"2 ms"}
+[2023-04-14T11:09:04+07:00] | {"tag":"REQ","from":"::1","method":"GET","endpoint":"/api/auth/authtoken","time":"2023-04-14T11:09:04+07:00"}
+[2023-04-14T11:09:04+07:00] | {"tag":"RES","from":"::1","method":"GET","endpoint":"/api/auth/authtoken","time":"2023-04-14T11:09:04+07:00","responseTime":"1 ms"}
+[2023-04-14T11:10:01+07:00] | {"tag":"REQ","from":"::1","method":"GET","endpoint":"/api/auth/authtoken","time":"2023-04-14T11:10:01+07:00"}
+[2023-04-14T11:10:01+07:00] | {"tag":"RES","from":"::1","method":"GET","endpoint":"/api/auth/authtoken","time":"2023-04-14T11:10:01+07:00","responseTime":"2 ms"}
+[2023-04-14T11:10:02+07:00] | {"tag":"REQ","from":"::1","method":"GET","endpoint":"/api/auth/authtoken","time":"2023-04-14T11:10:02+07:00"}
+[2023-04-14T11:10:02+07:00] | {"tag":"RES","from":"::1","method":"GET","endpoint":"/api/auth/authtoken","time":"2023-04-14T11:10:02+07:00","responseTime":"2 ms"}
+[2023-04-14T11:10:02+07:00] | {"tag":"REQ","from":"::1","method":"GET","endpoint":"/api/auth/authtoken","time":"2023-04-14T11:10:02+07:00"}
+[2023-04-14T11:10:02+07:00] | {"tag":"RES","from":"::1","method":"GET","endpoint":"/api/auth/authtoken","time":"2023-04-14T11:10:02+07:00","responseTime":"2 ms"}
+[2023-04-14T11:18:57+07:00] | {"tag":"REQ","from":"::1","method":"GET","endpoint":"/api/auth/authtoken","time":"2023-04-14T11:18:57+07:00"}
+[2023-04-14T11:18:57+07:00] | {"tag":"RES","from":"::1","method":"GET","endpoint":"/api/auth/authtoken","time":"2023-04-14T11:18:57+07:00","responseTime":"1 ms"}
+[2023-04-14T11:19:00+07:00] | {"tag":"REQ","from":"::1","method":"GET","endpoint":"/api/auth/authtoken","time":"2023-04-14T11:19:00+07:00"}
+[2023-04-14T11:19:00+07:00] | {"tag":"RES","from":"::1","method":"GET","endpoint":"/api/auth/authtoken","time":"2023-04-14T11:19:00+07:00","responseTime":"2 ms"}
+[2023-04-14T11:19:00+07:00] | {"tag":"REQ","from":"::1","method":"GET","endpoint":"/api/auth/authtoken","time":"2023-04-14T11:19:00+07:00"}
+[2023-04-14T11:19:00+07:00] | {"tag":"RES","from":"::1","method":"GET","endpoint":"/api/auth/authtoken","time":"2023-04-14T11:19:00+07:00","responseTime":"2 ms"}
+[2023-04-14T11:19:01+07:00] | {"tag":"REQ","from":"::1","method":"GET","endpoint":"/api/auth/authtoken","time":"2023-04-14T11:19:01+07:00"}
+[2023-04-14T11:19:01+07:00] | {"tag":"RES","from":"::1","method":"GET","endpoint":"/api/auth/authtoken","time":"2023-04-14T11:19:01+07:00","responseTime":"2 ms"}
+[2023-04-14T11:19:01+07:00] | {"tag":"REQ","from":"::1","method":"GET","endpoint":"/api/auth/authtoken","time":"2023-04-14T11:19:01+07:00"}
+[2023-04-14T11:19:01+07:00] | {"tag":"RES","from":"::1","method":"GET","endpoint":"/api/auth/authtoken","time":"2023-04-14T11:19:01+07:00","responseTime":"2 ms"}
+[2023-04-14T11:19:07+07:00] | {"tag":"REQ","from":"::1","method":"GET","endpoint":"/api/auth/authtoken","time":"2023-04-14T11:19:07+07:00"}
+[2023-04-14T11:19:07+07:00] | {"tag":"RES","from":"::1","method":"GET","endpoint":"/api/auth/authtoken","time":"2023-04-14T11:19:07+07:00","responseTime":"1 ms"}
+[2023-04-14T11:19:08+07:00] | {"tag":"REQ","from":"::1","method":"GET","endpoint":"/api/auth/authtoken","time":"2023-04-14T11:19:08+07:00"}
+[2023-04-14T11:19:08+07:00] | {"tag":"RES","from":"::1","method":"GET","endpoint":"/api/auth/authtoken","time":"2023-04-14T11:19:08+07:00","responseTime":"2 ms"}
+[2023-04-14T11:19:43+07:00] | {"tag":"REQ","from":"::1","method":"GET","endpoint":"/api/auth/authtoken","time":"2023-04-14T11:19:43+07:00"}
+[2023-04-14T11:19:43+07:00] | {"tag":"RES","from":"::1","method":"GET","endpoint":"/api/auth/authtoken","time":"2023-04-14T11:19:43+07:00","responseTime":"1 ms"}
+[2023-04-14T12:46:50+07:00] | {"tag":"REQ","from":"::1","method":"GET","endpoint":"/api/auth/authtoken","time":"2023-04-14T12:46:50+07:00"}
+[2023-04-14T12:46:50+07:00] | {"tag":"RES","from":"::1","method":"GET","endpoint":"/api/auth/authtoken","time":"2023-04-14T12:46:50+07:00","responseTime":"2 ms"}
+[2023-04-14T12:46:54+07:00] | {"tag":"REQ","from":"::1","method":"GET","endpoint":"/api/auth/authtoken","time":"2023-04-14T12:46:54+07:00"}
+[2023-04-14T12:46:54+07:00] | {"tag":"RES","from":"::1","method":"GET","endpoint":"/api/auth/authtoken","time":"2023-04-14T12:46:54+07:00","responseTime":"3 ms"}
+[2023-04-14T12:46:54+07:00] | {"tag":"REQ","from":"::1","method":"GET","endpoint":"/api/auth/authtoken","time":"2023-04-14T12:46:54+07:00"}
+[2023-04-14T12:46:54+07:00] | {"tag":"RES","from":"::1","method":"GET","endpoint":"/api/auth/authtoken","time":"2023-04-14T12:46:54+07:00","responseTime":"2 ms"}
+[2023-04-14T12:46:55+07:00] | {"tag":"REQ","from":"::1","method":"GET","endpoint":"/api/auth/authtoken","time":"2023-04-14T12:46:55+07:00"}
+[2023-04-14T12:46:55+07:00] | {"tag":"RES","from":"::1","method":"GET","endpoint":"/api/auth/authtoken","time":"2023-04-14T12:46:55+07:00","responseTime":"2 ms"}

@@ -16,6 +16,7 @@ const redis = require("redis");
 const redisMiddleware = require("./middleware/redis");
 const auth = require("./routes/auth.route");
 const products = require("./routes/products.route");
+const mail = require("./routes/mail.route");
 
 register.setDefaultLabels({ app: "learn-express-react" });
 client.collectDefaultMetrics({ register });
@@ -44,7 +45,8 @@ app.use(logger.request);
 app.use(logger.response);
 
 app.use("/api/auth", auth);
-app.use("/api/products", lokiMiddleware, products);
+app.use("/api/products", products);
+app.use("/api", mail);
 
 app.listen(port, () => {
   console.log(`Run at ${port} `);

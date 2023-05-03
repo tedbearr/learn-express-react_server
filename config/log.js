@@ -3,6 +3,7 @@ require("winston-daily-rotate-file");
 const expressWinston = require("express-winston");
 const fs = require("fs");
 const moment = require("moment");
+const winstonLoki = require("../config/lokiWinstonLog");
 
 const filename = () => {
   if (!fs.existsSync(`./logs`)) {
@@ -24,6 +25,11 @@ const filename = () => {
 
 filename();
 
+let route = [
+  "/api/products/admin/get-all-data",
+  "/api/products/admin/get-specified-data/2",
+];
+
 const logger = {
   response: expressWinston.logger({
     transports: [
@@ -38,6 +44,7 @@ const logger = {
     format: winston.format.combine(
       winston.format.timestamp(),
       winston.format.printf((info) => {
+        // console.log(info.meta.req);
         let body = {};
         body.id = info.meta.req.id;
         body.tag = "RES";
@@ -48,14 +55,23 @@ const logger = {
         body.responseTime = `${info.meta.responseTime} ms`;
 
         var header_auth = info.meta.req.headers["authorization"];
-        var issuer_name =
-          header_auth === "learn"
-        if (!issuer_name)
-          return `[${moment().format()}] | ${JSON.stringify(body)}`;
+        var issuer_name = header_auth === "learn";
+        winstonLoki.log.info({
+          message: info.meta.res.body.message,
+          labels: {
+            route: info.meta.req.originalUrl,
+            status: info.meta.res.body.code,
+            //   data: res.body.data,
+          },
+        });
 
         return `[${moment().format()}] | ${JSON.stringify(body)}`;
       })
     ),
+    skip: function (req, res) {
+      console.log(req.originalUrl);
+      return route.indexOf(req.originalUrl) === -1;
+    },
     responseWhitelist: [...expressWinston.responseWhitelist, "body"],
     requestWhitelist: [...expressWinston.requestWhitelist, "body", "id", "ip"],
   }),
@@ -82,6 +98,9 @@ const logger = {
         return `[${moment().format()}] | ${JSON.stringify(body)}`;
       })
     ),
+    skip: (req, res) => {
+      return route.indexOf(req.originalUrl) === -1;
+    },
     requestWhitelist: [...expressWinston.requestWhitelist, "body", "id", "ip"],
   }),
 };

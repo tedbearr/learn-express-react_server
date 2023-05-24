@@ -4,6 +4,7 @@ const expressWinston = require("express-winston");
 const fs = require("fs");
 const moment = require("moment");
 const winstonLoki = require("../config/lokiWinstonLog");
+const { count_metrics } = require("../config/metricsPrometheus");
 
 const filename = () => {
   if (!fs.existsSync(`./logs`)) {
@@ -25,7 +26,7 @@ const filename = () => {
 
 filename();
 
-let route = [
+const route = [
   "/api/products/admin/get-all-data",
   "/api/products/admin/get-specified-data/2",
 ];
@@ -54,16 +55,50 @@ const logger = {
         body.time = moment().format();
         body.responseTime = `${info.meta.responseTime} ms`;
 
-        var header_auth = info.meta.req.headers["authorization"];
-        var issuer_name = header_auth === "learn";
+        // var header_auth = info.meta.req.headers["authorization"];
+        // var issuer_name = header_auth === "learn";
+
+        let statusCode = info.meta.res.body.code;
+        let message = info.meta.res.body.message;
+        let url = info.meta.req.originalUrl;
+        let responseTime = info.meta.responseTime
+
+        let date = moment().format("D");
+        let month = moment().format("M");
+        let year = moment().format("Y");
+
         winstonLoki.log.info({
-          message: info.meta.res.body.message,
+          message: message,
           labels: {
-            route: info.meta.req.originalUrl,
-            status: info.meta.res.body.code,
+            route: url,
+            status: statusCode,
             //   data: res.body.data,
           },
         });
+
+        if (statusCode != "00") {
+          count_metrics
+            .labels({
+              issuer_name: "Test",
+              route: url,
+              status_code: statusCode,
+              date: date,
+              month: month,
+              year: year,
+            })
+            .observe(responseTime);
+        } else {
+          count_metrics
+            .labels({
+              issuer_name: "Test",
+              route: url,
+              status_code: statusCode,
+              date: date,
+              month: month,
+              year: year,
+            })
+            .observe(responseTime);
+        }
 
         return `[${moment().format()}] | ${JSON.stringify(body)}`;
       })

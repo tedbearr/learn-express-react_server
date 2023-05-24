@@ -85,7 +85,7 @@ if (
     transports: [
       new loki({
         host: "http://localhost:3100",
-        labels: { app: "testLoki" },
+        labels: { app: "learn-react-express" },
         handleExceptions: true,
         handleRejections: true,
         clearOnError: true,

@@ -21,7 +21,7 @@ const handlebarOptions = {
 transporter.use("compile", hbs(handlebarOptions));
 
 var mailOptions = {
-  from: "testing",
+  from: '"testing" <menkusai7@gmail.com>',
   to: "menkusai@gmail.com",
   subject: "Welcome",
   template: "email",
@@ -30,9 +30,9 @@ var mailOptions = {
   },
 };
 
-const sendEmail = (req, res) => {
+const sendEmail = async (req, res) => {
   try {
-    transporter.sendMail(mailOptions, (error, info) => {
+    await transporter.sendMail(mailOptions, (error, info) => {
       if (error) {
         return res.status(200).json({
           code: "400",

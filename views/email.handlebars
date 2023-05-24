@@ -1,12 +1,23 @@
-// email.handlebars
 <!DOCTYPE html>
 <html>
 <head>
   <meta charset="utf-8">
   <meta http-equiv="x-ua-compatible" content="ie=edge">
   <title>Welcome Email</title>
+  <style>
+    #bodyEmail {
+       display: flex;
+       background-color: dodgerblue;
+       justify-content: flex-end;
+       width: 100%;
+       height: 100%; 
+    }
+  </style>
 </head>
 <body>
   <h2>Hello {{name}}! </h2>
+  <div id="bodyEmail">
+    Ini adalah contoh email
+  </div>
 </body>
 </html>

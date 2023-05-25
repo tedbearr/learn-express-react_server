@@ -11,7 +11,7 @@ if (process.env.SERVER_FOR == "local") {
   database = process.env.DB_NAME || "learn-express-react";
   port = process.env.DB_PORT || "5432";
   user = process.env.DB_USERNAME || "postgres";
-  password = process.env.DB_PASSWORD || "postgres";
+  password = process.env.DB_PASSWORD || "galau712";
 } else if (process.env.SERVER_FOR == "development") {
   //   host = "10.20.14.14";
   //   database = "postgres";
@@ -19,11 +19,11 @@ if (process.env.SERVER_FOR == "local") {
   //   user = "cms";
   //   password = "Cm5kc1#2021";
 } else if (process.env.SERVER_FOR == "production") {
-  //   host = "10.1.201.75";
-  //   database = "postgres";
-  //   port = 5432;
-  //   user = "postgres";
-  //   password = "inhc0mmute_cms";
+    host = "103.54.170.25";
+    database = "postgres";
+    port = "5432";
+    user = "postgres";
+    password = "123456";
 }
 
 module.exports = {

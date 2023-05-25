@@ -20,7 +20,7 @@ if (process.env.SERVER_FOR == "local") {
   //   password = "Cm5kc1#2021";
 } else if (process.env.SERVER_FOR == "production") {
     host = "103.54.170.25";
-    database = "postgres";
+    database = "learn-express-react";
     port = "5432";
     user = "postgres";
     password = "123456";

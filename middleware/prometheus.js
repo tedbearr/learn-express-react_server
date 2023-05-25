@@ -20,7 +20,6 @@ const promMiddleware = (req, res, next) => {
     if (statusCode != "00") {
       count_metrics
         .labels({
-          issuer_name: "CMS",
           method: method,
           route: url,
           status_code: statusCode,
@@ -32,7 +31,6 @@ const promMiddleware = (req, res, next) => {
     } else {
       count_metrics
         .labels({
-          issuer_name: "CMS",
           method: method,
           route: url,
           status_code: statusCode,

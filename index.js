@@ -18,6 +18,7 @@ const auth = require("./routes/auth.route");
 const products = require("./routes/products.route");
 const mail = require("./routes/mail.route");
 const https = require("https");
+const fs = require("fs")
 
 register.setDefaultLabels({ app: "learn-express-react" });
 client.collectDefaultMetrics({ register });

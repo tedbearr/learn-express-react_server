@@ -15,3 +15,7 @@
 [2023-04-06 10:45:07.612] error: 	Response products : Undefined binding(s) detected when compiling FIRST. Undefined column(s): [id] query: select * from "products" where "id" = ? limit ?
 [2023-04-06 10:45:41.091] error: 	Response products : Undefined binding(s) detected when compiling FIRST. Undefined column(s): [id] query: select * from "products" where "id" = ? limit ?
 [2023-04-06 10:46:44.713] error: 	Response products : Undefined binding(s) detected when compiling FIRST. Undefined column(s): [id] query: select * from "products" where "id" = ? limit ?
+[2023-05-25 14:15:41.685] error: 	Response Login Admin : select * from "admin" where "username" = $1 limit $2 - relation "admin" does not exist
+[2023-05-25 14:16:16.131] error: 	Response Login Admin : select * from "admin" where "username" = $1 limit $2 - relation "admin" does not exist
+[2023-05-25 14:17:06.466] error: 	Response Login Admin : select * from "admin" where "username" = $1 limit $2 - relation "admin" does not exist
+[2023-05-25 14:20:16.027] error: 	Response Login Admin : select * from "admin" where "username" = $1 limit $2 - relation "admin" does not exist

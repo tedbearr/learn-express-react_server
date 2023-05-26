@@ -17,6 +17,8 @@ const redisMiddleware = require("./middleware/redis");
 const auth = require("./routes/auth.route");
 const products = require("./routes/products.route");
 const mail = require("./routes/mail.route");
+const https = require("https");
+const fs = require("fs")
 
 register.setDefaultLabels({ app: "learn-express-react" });
 client.collectDefaultMetrics({ register });
@@ -48,6 +50,15 @@ app.use("/api/auth", auth);
 app.use("/api/products", products);
 app.use("/api", mail);
 
-app.listen(port, () => {
-  console.log(`Run at ${port} `);
-});
+const options = {
+  key: fs.readFileSync("key.pem"),
+  cert: fs.readFileSync("cert.pem"),
+};
+
+// app.listen(port, () => {
+//   console.log(`Run at ${port} `);
+// });
+
+https
+  .createServer(options, app)
+  .listen(port, console.log(`server runs on port ${port}`));

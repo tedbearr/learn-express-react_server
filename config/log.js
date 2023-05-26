@@ -79,7 +79,6 @@ const logger = {
         if (statusCode != "00") {
           count_metrics
             .labels({
-              issuer_name: "Test",
               route: url,
               status_code: statusCode,
               date: date,
@@ -90,7 +89,6 @@ const logger = {
         } else {
           count_metrics
             .labels({
-              issuer_name: "Test",
               route: url,
               status_code: statusCode,
               date: date,

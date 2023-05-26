@@ -1,4 +1,0 @@
-[2023-05-24T22:29:45+07:00] | {"tag":"REQ","from":"::1","method":"GET","endpoint":"/api/products/admin/get-all-data","time":"2023-05-24T22:29:45+07:00"}
-[2023-05-24T22:29:45+07:00] | {"tag":"RES","from":"::1","method":"GET","endpoint":"/api/products/admin/get-all-data","time":"2023-05-24T22:29:45+07:00","responseTime":"242 ms"}
-[2023-05-24T22:30:57+07:00] | {"tag":"REQ","from":"::1","method":"GET","endpoint":"/api/products/admin/get-all-data","time":"2023-05-24T22:30:57+07:00"}
-[2023-05-24T22:30:57+07:00] | {"tag":"RES","from":"::1","method":"GET","endpoint":"/api/products/admin/get-all-data","time":"2023-05-24T22:30:57+07:00","responseTime":"21055 ms"}

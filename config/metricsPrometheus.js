@@ -1,7 +1,7 @@
 const client = require("prom-client");
 
 const count_metrics = new client.Histogram({
-  name: "learn-express-react",
+  name: "learn_express_react",
   help: "this is the metric for getting request data based on code status",
   labelNames: ["route", "status_code", "date", "month", "year"],
 });

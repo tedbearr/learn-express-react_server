@@ -50,15 +50,15 @@ app.use("/api/auth", auth);
 app.use("/api/products", products);
 app.use("/api", mail);
 
-const options = {
-  key: fs.readFileSync("key.pem"),
-  cert: fs.readFileSync("cert.pem"),
-};
+// const options = {
+//   key: fs.readFileSync("key.pem"),
+//   cert: fs.readFileSync("cert.pem"),
+// };
 
-// app.listen(port, () => {
-//   console.log(`Run at ${port} `);
-// });
+app.listen(port, () => {
+  console.log(`Run at ${port} `);
+});
 
-https
-  .createServer(options, app)
-  .listen(port, console.log(`server runs on port ${port}`));
+// https
+//   .createServer(options, app)
+//   .listen(port, console.log(`server runs on port ${port}`));

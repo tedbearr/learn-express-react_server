@@ -40,7 +40,7 @@ app.use(bodyParser.urlencoded({ extended: true }));
 app.use(responseTime());
 
 app.get("/", async (req, res) => {
-  res.send("qqa");
+  res.send("Welcome");
 });
 
 app.use(logger.request);

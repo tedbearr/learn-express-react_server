@@ -21,4 +21,4 @@ jobs:
         password: ${{ secrets.PASSWORD }}
         port: ${{ secrets.PORT }}
         script: |
-          sudo branch=master /home/teddybear/repo/learn-express-react.git/hooks/post-receive
+          sudo branch=master /home/teddybear/repo/learn-express-react_server.git/hooks/post-receive
